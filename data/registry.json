@@ -1,0 +1,92 @@
+[
+  {
+    "id": 1,
+    "name": "Ergonomic Baby Carrier",
+    "description": "A structured, ergonomic carrier designed to support baby's hips and spine from the newborn stage through toddlerhood. Suitable from 3.5 kg to 20 kg, with multiple carry positions and lumbar support for the wearer.",
+    "category": "Travel & Comfort",
+    "status": "available",
+    "image": "https://images.unsplash.com/photo-1602928321679-560bb453f190?auto=format&fit=crop&w=800&q=80",
+    "priceRange": "₦35,000 – ₦55,000"
+  },
+  {
+    "id": 2,
+    "name": "Convertible Cot Bed",
+    "description": "Grows with baby from newborn to toddler. Includes a firm, breathable mattress, teething rail guards, and multiple adjustable base positions for safe co-sleeping and independent sleeping stages.",
+    "category": "Nursery",
+    "status": "gifted",
+    "image": "https://images.unsplash.com/photo-1566004100631-35d015d6a491?auto=format&fit=crop&w=800&q=80",
+    "priceRange": "₦120,000 – ₦180,000"
+  },
+  {
+    "id": 3,
+    "name": "Muslin Swaddle Packs (×2)",
+    "description": "Breathable, 100% organic cotton swaddles in soft neutral tones. Gentle on newborn skin and beautifully versatile — use as a wrap, feeding cover, pram blanket, or play mat.",
+    "category": "Clothing & Linen",
+    "status": "available",
+    "image": "https://images.unsplash.com/photo-1519689680058-324335c77eba?auto=format&fit=crop&w=800&q=80",
+    "priceRange": "₦18,000 – ₦28,000"
+  },
+  {
+    "id": 4,
+    "name": "Baby Monitor with Camera",
+    "description": "HD video monitor with night vision, two-way audio, and a built-in room temperature sensor. Alerts you the moment baby stirs — giving you peace of mind in every room of the house.",
+    "category": "Nursery",
+    "status": "available",
+    "image": "https://images.unsplash.com/photo-1555252333-9f8e92e65df9?auto=format&fit=crop&w=800&q=80",
+    "priceRange": "₦65,000 – ₦95,000"
+  },
+  {
+    "id": 5,
+    "name": "Newborn Starter Clothing Set (×3)",
+    "description": "A curated collection of onesies, sleepsuits, and hats for the first three months — soft, practical, and neutral. Made from 100% Pima cotton and sized for real newborns.",
+    "category": "Clothing & Linen",
+    "status": "gifted",
+    "image": "https://images.unsplash.com/photo-1522771930-78848d9293e8?auto=format&fit=crop&w=800&q=80",
+    "priceRange": "₦22,000 – ₦35,000"
+  },
+  {
+    "id": 6,
+    "name": "Baby Bathtub with Sling",
+    "description": "Ergonomic tub with a removable newborn sling insert and a non-slip base. Designed for safe, calm, and comfortable bath time from day one — no second pair of hands required.",
+    "category": "Bath & Care",
+    "status": "available",
+    "image": "https://images.unsplash.com/photo-1545558014-8692077e9b5c?auto=format&fit=crop&w=800&q=80",
+    "priceRange": "₦15,000 – ₦25,000"
+  },
+  {
+    "id": 7,
+    "name": "Organic Baby Skincare Kit (×2)",
+    "description": "Gentle, fragrance-free lotion, wash, and body oil — dermatologist tested and safe for sensitive newborn skin. Formulated without parabens, sulphates, or harsh preservatives.",
+    "category": "Bath & Care",
+    "status": "available",
+    "image": "https://images.unsplash.com/photo-1556228578-8c89e6adf883?auto=format&fit=crop&w=800&q=80",
+    "priceRange": "₦12,000 – ₦20,000"
+  },
+  {
+    "id": 8,
+    "name": "Lightweight Travel Stroller",
+    "description": "Compact stroller with full newborn recline, UPF 50+ canopy, and an easy one-hand fold. A world-class design that makes every outing — market run or airport terminal — feel effortless.",
+    "category": "Travel & Comfort",
+    "status": "available",
+    "image": "https://images.unsplash.com/photo-1591474200742-8e512e6f98f8?auto=format&fit=crop&w=800&q=80",
+    "priceRange": "₦180,000 – ₦280,000"
+  },
+  {
+    "id": 9,
+    "name": "White Noise Sound Machine",
+    "description": "A compact bedside machine with 20 calming sound profiles — rain, ocean, white noise, and gentle lullabies — to help baby fall asleep faster and sleep more soundly through the night.",
+    "category": "Nursery",
+    "status": "gifted",
+    "image": "https://images.unsplash.com/photo-1484704849700-f032a568e944?auto=format&fit=crop&w=800&q=80",
+    "priceRange": "₦28,000 – ₦45,000"
+  },
+  {
+    "id": 10,
+    "name": "Diaper Bag Backpack",
+    "description": "An elegant, unisex backpack with 12 organised pockets, insulated bottle holders, a wipeable changing mat, and universal stroller clips. Looks like a premium bag — works like a command centre.",
+    "category": "Travel & Comfort",
+    "status": "available",
+    "image": "https://images.unsplash.com/photo-1553062407-98eeb64c6a62?auto=format&fit=crop&w=800&q=80",
+    "priceRange": "₦35,000 – ₦55,000"
+  }
+]

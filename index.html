@@ -1,0 +1,461 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+
+  <!-- Primary meta -->
+  <title>Baby Okeke — Registry &amp; Gifts</title>
+  <meta name="description" content="A curated baby registry for the Okeke family. Browse our wishlist, contribute a gift, or leave a message for our little one." />
+  <meta name="theme-color" content="#FAF8F4" />
+
+  <!-- Open Graph (for WhatsApp / social sharing) -->
+  <meta property="og:type"        content="website" />
+  <meta property="og:title"       content="Baby Okeke — Registry &amp; Gifts" />
+  <meta property="og:description" content="We are expecting. Browse our registry and celebrate with us." />
+  <meta property="og:image"       content="https://images.unsplash.com/photo-1555252333-9f8e92e65df9?w=1200&q=80" />
+
+  <!-- Fonts: Playfair Display (serif headings) + Inter (sans body) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;1,400&family=Inter:wght@300;400;500&display=swap"
+    rel="stylesheet"
+  />
+
+  <!-- Stylesheet -->
+  <link rel="stylesheet" href="css/styles.css" />
+
+  <!-- Favicon -->
+  <link rel="icon" href="favicon.svg" type="image/svg+xml" />
+  <link rel="apple-touch-icon" href="favicon.svg" />
+</head>
+
+<body>
+
+
+  <!-- ====================================================
+       NAVIGATION
+       ==================================================== -->
+  <nav class="nav" id="mainNav" role="navigation" aria-label="Main navigation">
+    <div class="nav__inner container">
+      <a href="#home" class="nav__logo" aria-label="Baby Okeke — Home">
+        <svg width="22" height="22" viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false">
+          <rect width="32" height="32" rx="7" fill="#7D9B78"/>
+          <ellipse cx="16" cy="10.5" rx="3" ry="5"  fill="#FAF8F4"/>
+          <ellipse cx="16" cy="21.5" rx="3" ry="5"  fill="#FAF8F4"/>
+          <ellipse cx="10.5" cy="16" rx="5" ry="3"  fill="#FAF8F4"/>
+          <ellipse cx="21.5" cy="16" rx="5" ry="3"  fill="#FAF8F4"/>
+          <circle  cx="16"   cy="16"   r="2.5"        fill="#7D9B78"/>
+        </svg>
+        <span>Baby Okeke</span>
+      </a>
+      <ul class="nav__links" role="list">
+        <li><a href="#registry">Registry</a></li>
+        <li><a href="#messages">Leave a Message</a></li>
+      </ul>
+    </div>
+  </nav>
+
+
+  <!-- ====================================================
+       HERO
+       ==================================================== -->
+  <section class="hero" id="home" aria-labelledby="heroName">
+    <div class="hero__inner">
+      <p class="hero__eyebrow">We are expecting</p>
+
+      <h1 class="hero__name" id="heroName">Baby Okeke</h1>
+
+      <p class="hero__due">
+        <!-- Update this date before publishing -->
+        Due: April 2026
+      </p>
+
+      <p class="hero__message">
+        A new soul is on their way, and every heart that celebrates with us
+        makes this journey more beautiful. We are so grateful you are here.
+      </p>
+
+      <div class="hero__ctas">
+        <a href="#registry" class="btn btn--primary">View Registry</a>
+        <a href="#contribute" class="btn btn--secondary">Our Story</a>
+      </div>
+    </div>
+
+    <!-- Animated scroll line -->
+    <div class="hero__scroll" aria-hidden="true">
+      <span></span>
+    </div>
+  </section>
+
+
+  <!-- ====================================================
+       GALLERY — replace placeholder images with real photos
+       ==================================================== -->
+  <section class="gallery" id="gallery" aria-label="Gallery">
+    <div class="container">
+      <div class="gallery__grid">
+
+        <!-- Tall image on the left -->
+        <div class="gallery__item gallery__item--tall">
+          <img
+            src="https://images.unsplash.com/photo-1519689680058-324335c77eba?auto=format&fit=crop&w=800&q=80"
+            alt="Soft, warm nursery setting"
+            loading="lazy"
+            width="800"
+            height="1000"
+          />
+        </div>
+
+        <!-- Two stacked images on the right -->
+        <div class="gallery__item">
+          <img
+            src="https://images.unsplash.com/photo-1515488764276-beab7607c1e6?auto=format&fit=crop&w=800&q=80"
+            alt="Baby essentials laid out neatly"
+            loading="lazy"
+            width="800"
+            height="600"
+          />
+        </div>
+
+        <div class="gallery__item">
+          <img
+            src="https://images.unsplash.com/photo-1544367567-0f2fcb009e0b?auto=format&fit=crop&w=800&q=80"
+            alt="Cosy nursery detail"
+            loading="lazy"
+            width="800"
+            height="600"
+          />
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+
+  <!-- ====================================================
+       REGISTRY
+       ==================================================== -->
+  <section class="registry" id="registry" aria-labelledby="registryTitle">
+    <div class="container">
+      <span class="section-label reveal">Curated with care</span>
+      <h2 class="section-title reveal reveal--delay-1" id="registryTitle">
+        The Registry
+      </h2>
+
+      <p class="registry__intro reveal reveal--delay-2">
+        Each item has been thoughtfully chosen. Items marked as
+        <strong>Gifted</strong> have already been lovingly taken care of —
+        thank you to those generous souls.
+      </p>
+
+      <!-- Progress bar — populated by JS -->
+      <div class="registry__progress reveal reveal--delay-2" aria-label="Registry progress">
+        <div class="progress-bar" role="progressbar" aria-valuemin="0" aria-valuemax="100" aria-valuenow="0">
+          <div class="progress-bar__fill" id="progressFill" style="width: 0%"></div>
+        </div>
+        <span class="progress-label" id="progressLabel">Loading...</span>
+      </div>
+
+      <!-- Category filter tabs — populated by JS -->
+      <div
+        class="registry__filters reveal"
+        id="registryFilters"
+        role="tablist"
+        aria-label="Filter registry by category"
+      >
+        <!-- Placeholder shown while JS loads -->
+        <button class="filter-btn is-active" data-category="all" role="tab" aria-selected="true">
+          All Items
+        </button>
+      </div>
+
+      <!-- Registry card grid — populated by JS -->
+      <div
+        class="registry__grid"
+        id="registryGrid"
+        aria-live="polite"
+        aria-label="Registry items"
+      >
+        <!-- Cards rendered by main.js -->
+      </div>
+
+      <!-- Visible only if JavaScript is disabled -->
+      <noscript>
+        <p class="registry__message">
+          Please enable JavaScript to view the full registry.
+        </p>
+      </noscript>
+
+    </div>
+  </section>
+
+
+  <!-- ====================================================
+       GRATITUDE — warm note from the parents
+       ==================================================== -->
+  <section class="note" id="contribute" aria-labelledby="contributeTitle">
+    <div class="note__inner container">
+      <span class="section-label reveal">With grateful hearts</span>
+      <h2 class="section-title reveal reveal--delay-1" id="contributeTitle">
+        Thank you for being here
+      </h2>
+
+      <div class="note__body reveal reveal--delay-2">
+        <p class="note__para">
+          To every person who has taken a moment to visit this page and
+          celebrate with us — thank you. Your love wraps around this baby
+          long before they arrive, and that means more than words can hold.
+        </p>
+        <p class="note__para">
+          If you would like to mark this moment with a contribution, browse
+          the registry, choose an item that speaks to you, and tap
+          <strong>Gift this item</strong> for the transfer details.
+          Every act of generosity is held close to our hearts.
+        </p>
+      </div>
+  </section>
+
+
+  <!-- ====================================================
+       MESSAGES FOR BABY
+       ==================================================== -->
+  <section class="messages" id="messages" aria-labelledby="messagesTitle">
+    <div class="messages__inner container">
+      <span class="section-label reveal">Words that will last forever</span>
+      <h2 class="section-title reveal reveal--delay-1" id="messagesTitle">
+        A Message for Baby
+      </h2>
+
+      <p class="messages__body reveal reveal--delay-2">
+        Every message left for Baby Okeke will be read aloud as they
+        grow — a keepsake of the love that surrounded them before they
+        even arrived.
+      </p>
+
+      <p class="messages__sub reveal reveal--delay-2">
+        Messages are written as part of the gift journey. Browse the
+        registry, choose an item to gift, and you will be invited to
+        compose your personal blessing or wish for Baby — sent alongside
+        your gift confirmation in a single WhatsApp message.
+      </p>
+
+      <a
+        href="#registry"
+        class="btn btn--primary reveal reveal--delay-3"
+        aria-label="Browse the registry to send a gift and leave a message"
+      >
+        Browse the Registry
+      </a>
+    </div>
+  </section>
+
+
+  <!-- ====================================================
+       FOOTER
+       ==================================================== -->
+  <footer class="footer" id="footer" role="contentinfo">
+    <div class="container">
+      <p class="footer__name">Baby Okeke</p>
+      <p class="footer__due">Expected April 2026</p>
+      <div class="footer__divider" aria-hidden="true"></div>
+      <p class="footer__quote">"Every child begins the world again."</p>
+      <p class="footer__copy">&copy; 2026 The Okeke Family. Made with love.</p>
+    </div>
+  </footer>
+
+
+  <!-- ====================================================
+       ITEM DETAIL DIALOG
+       Two internal panels toggled by JS:
+         .dialog--detail  → item info + "Gift this item" CTA
+         .dialog--bank    → bank transfer + WhatsApp confirm
+       ==================================================== -->
+  <dialog
+    class="item-dialog"
+    id="itemDialog"
+    aria-modal="true"
+    aria-labelledby="dialogItemName"
+    role="dialog"
+  >
+    <div class="dialog__sheet">
+
+    <!-- Close button (always visible) -->
+    <button
+      class="dialog__close"
+      id="dialogClose"
+      aria-label="Close"
+      type="button"
+    >
+      <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18"
+           viewBox="0 0 24 24" fill="none" stroke="currentColor"
+           stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"
+           aria-hidden="true" focusable="false">
+        <line x1="18" y1="6" x2="6" y2="18"></line>
+        <line x1="6" y1="6" x2="18" y2="18"></line>
+      </svg>
+    </button>
+
+    <!-- ── PANEL 1: Item detail ── -->
+    <div class="dialog__panel dialog__panel--detail" id="dialogPanelDetail">
+
+      <!-- Item cover image -->
+      <div class="dialog__image-wrap">
+        <img
+          class="dialog__image"
+          id="dialogImage"
+          src=""
+          alt=""
+          loading="lazy"
+          width="800"
+          height="500"
+        />
+        <!-- Status badge overlaid on image -->
+        <span class="dialog__image-badge" id="dialogImageBadge"></span>
+      </div>
+
+      <!-- Item content -->
+      <div class="dialog__body">
+        <span class="dialog__category" id="dialogCategory"></span>
+        <h2 class="dialog__name" id="dialogItemName"></h2>
+        <p class="dialog__desc" id="dialogDesc"></p>
+
+        <!-- Meta row: price range -->
+        <div class="dialog__meta">
+          <div class="dialog__meta-item">
+            <span class="dialog__meta-label">Approximate price</span>
+            <span class="dialog__meta-value dialog__price" id="dialogPrice"></span>
+          </div>
+        </div>
+
+        <!-- CTA area -->
+        <div class="dialog__cta-area" id="dialogCtaArea">
+          <!-- Filled by JS: "Gift this item" btn OR gifted message -->
+        </div>
+      </div>
+    </div>
+
+    <!-- ── PANEL 2: Bank / gift transfer ── -->
+    <div class="dialog__panel dialog__panel--bank" id="dialogPanelBank" hidden>
+
+      <div class="dialog__bank-header">
+        <button class="dialog__back" id="dialogBack" type="button" aria-label="Back to item details">
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+               viewBox="0 0 24 24" fill="none" stroke="currentColor"
+               stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"
+               aria-hidden="true" focusable="false">
+            <polyline points="15 18 9 12 15 6"></polyline>
+          </svg>
+          Back
+        </button>
+        <p class="dialog__bank-eyebrow">Gifting</p>
+        <p class="dialog__bank-item-name" id="dialogBankItemName"></p>
+      </div>
+
+      <p class="dialog__bank-intro">
+        Transfer to the account below, then tap the WhatsApp button
+        so the family knows your gift has arrived.
+      </p>
+
+      <!-- Bank details -->
+      <dl class="bank-list dialog__bank-list">
+        <div class="bank-item bank-item--row">
+          <div>
+            <dt class="bank-item__label">Bank</dt>
+            <dd class="bank-item__value">Zenith Bank</dd>
+          </div>
+          <div>
+            <dt class="bank-item__label">Account Name</dt>
+            <dd class="bank-item__value">Ifeoma Okeke</dd>
+          </div>
+        </div>
+        <div class="bank-item bank-item--account">
+          <dt class="bank-item__label">Account Number</dt>
+          <dd class="account-row">
+            <span class="account-number" id="dialogAccountNumber">2048571930</span>
+            <button
+              class="copy-btn"
+              id="dialogCopyBtn"
+              onclick="copyDialogAccountNumber()"
+              type="button"
+              aria-label="Copy account number to clipboard"
+            >
+              <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14"
+                   viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                   stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"
+                   aria-hidden="true" focusable="false">
+                <rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect>
+                <path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path>
+              </svg>
+              <span id="dialogCopyLabel">Copy</span>
+            </button>
+          </dd>
+        </div>
+      </dl>
+
+      <!-- ── Message composer — visible inside bank panel ── -->
+      <div class="dialog__message-composer" id="dialogMessageComposer">
+
+        <p class="dialog__composer-heading">Leave Baby a message</p>
+        <p class="dialog__composer-sub">
+          Write a blessing, a prayer, or a wish. It will be woven into
+          your gift confirmation and sent to the family in one message.
+        </p>
+
+        <div class="dialog__field">
+          <label class="dialog__field-label" for="dialogSenderName">Your name</label>
+          <input
+            class="dialog__input"
+            type="text"
+            id="dialogSenderName"
+            name="senderName"
+            placeholder="e.g. Aunty Kemi"
+            maxlength="60"
+            autocomplete="name"
+          />
+        </div>
+
+        <div class="dialog__field">
+          <label class="dialog__field-label" for="dialogBabyMessage">Your message for Baby</label>
+          <textarea
+            class="dialog__textarea"
+            id="dialogBabyMessage"
+            name="babyMessage"
+            rows="4"
+            maxlength="300"
+            placeholder="Write your blessing, prayer, or wish for this little one..."
+          ></textarea>
+          <span class="dialog__char-count" id="dialogCharCount">0 / 300</span>
+        </div>
+
+      </div><!-- /dialog__message-composer -->
+
+      <!-- WhatsApp confirm — built dynamically by JS -->
+      <div class="contribute__action dialog__bank-action">
+        <a
+          class="btn btn--whatsapp"
+          id="dialogWhatsApp"
+          href="#"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <svg xmlns="http://www.w3.org/2000/svg" width="17" height="17"
+               viewBox="0 0 24 24" fill="currentColor"
+               aria-hidden="true" focusable="false">
+            <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 0 1-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 0 1-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 0 1 2.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0 0 12.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 0 0 5.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 0 0-3.48-8.413Z"/>
+          </svg>
+          <span id="dialogWaBtnLabel">Let us know you've sent</span>
+        </a>
+      </div>
+
+    </div><!-- /dialog__panel--bank -->
+    </div><!-- /dialog__sheet -->
+  </dialog><!-- /itemDialog -->
+
+
+  <!-- JavaScript — deferred so it doesn't block rendering -->
+  <script src="js/main.js" defer></script>
+
+</body>
+</html>
