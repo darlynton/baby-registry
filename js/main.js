@@ -244,8 +244,8 @@ function renderCards(grid, items) {
       : '';
 
     // Truncate description for card — full text shown in dialog
-    const shortDesc = item.description.length > 90
-      ? item.description.slice(0, 90).trimEnd() + '\u2026'
+    const shortDesc = item.description.length > 55
+      ? item.description.slice(0, 55).trimEnd() + '\u2026'
       : item.description;
 
     // Price range badge

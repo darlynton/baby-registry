@@ -983,9 +983,36 @@ section {
     grid-row: auto;
   }
 
-  /* Full-width registry cards */
+  /* 2-column registry grid on mobile */
   .registry__grid {
-    grid-template-columns: 1fr;
+    grid-template-columns: repeat(2, 1fr);
+    gap: var(--sp-sm);
+  }
+
+  /* Compact cards for narrow columns */
+  .registry-card {
+    padding: var(--sp-sm);
+    gap: 0.25rem;
+  }
+
+  .card__image-wrap {
+    height: 100px;
+    width: calc(100% + 2 * var(--sp-sm));
+    margin: calc(-1 * var(--sp-sm)) calc(-1 * var(--sp-sm)) var(--sp-xs);
+  }
+
+  .card__name {
+    font-size: 0.9rem;
+  }
+
+  .card__desc {
+    font-size: 0.78rem;
+    line-height: 1.5;
+  }
+
+  .card__meta-badge {
+    font-size: 0.62rem;
+    padding: 0.2rem 0.55rem;
   }
 
   /* Full-width bank card */
