@@ -986,33 +986,39 @@ section {
   /* 2-column registry grid on mobile */
   .registry__grid {
     grid-template-columns: repeat(2, 1fr);
-    gap: var(--sp-sm);
+    gap: 0.5rem;
   }
 
   /* Compact cards for narrow columns */
   .registry-card {
-    padding: var(--sp-sm);
-    gap: 0.25rem;
+    padding: 0.5rem;
+    gap: 0.2rem;
   }
 
   .card__image-wrap {
-    height: 100px;
-    width: calc(100% + 2 * var(--sp-sm));
-    margin: calc(-1 * var(--sp-sm)) calc(-1 * var(--sp-sm)) var(--sp-xs);
+    height: 96px;
+    width: calc(100% + 1rem);
+    margin: -0.5rem -0.5rem 0.35rem;
+  }
+
+  .card__category {
+    font-size: 0.58rem;
+    letter-spacing: 0.1em;
   }
 
   .card__name {
-    font-size: 0.9rem;
+    font-size: 0.82rem;
+    line-height: 1.25;
   }
 
-  .card__desc {
-    font-size: 0.78rem;
-    line-height: 1.5;
+  .card__status {
+    font-size: 0.6rem;
+    padding: 0.2rem 0.6rem;
   }
 
   .card__meta-badge {
-    font-size: 0.62rem;
-    padding: 0.2rem 0.55rem;
+    font-size: 0.6rem;
+    padding: 0.18rem 0.5rem;
   }
 
   /* Full-width bank card */
