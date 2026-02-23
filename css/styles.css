@@ -983,42 +983,99 @@ section {
     grid-row: auto;
   }
 
-  /* 2-column registry grid on mobile */
+  /* Single-column horizontal list on mobile */
   .registry__grid {
-    grid-template-columns: repeat(2, 1fr);
-    gap: 0.5rem;
+    grid-template-columns: 1fr;
+    gap: 0;
   }
 
-  /* Compact cards for narrow columns */
+  /* Row layout: text left, image right */
   .registry-card {
-    padding: 0.5rem;
-    gap: 0.2rem;
+    flex-direction: row;
+    align-items: flex-start;
+    gap: 0.75rem;
+    padding: 0.875rem 0;
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid var(--clr-border);
+    border-radius: 0;
+    box-shadow: none;
+    transform: none;
   }
 
+  .registry-card:last-child {
+    border-bottom: none;
+  }
+
+  .registry-card:hover {
+    box-shadow: none;
+    transform: none;
+  }
+
+  /* Image thumbnail on the right */
   .card__image-wrap {
-    height: 96px;
-    width: calc(100% + 1rem);
-    margin: -0.5rem -0.5rem 0.35rem;
+    order: 2;
+    flex-shrink: 0;
+    width: 88px;
+    height: 88px;
+    margin: 0;
+    border-radius: var(--r-md);
+  }
+
+  /* Text column on the left */
+  .card__body {
+    display: flex;
+    flex-direction: column;
+    gap: 0.18rem;
+    flex: 1;
+    min-width: 0;
+    order: 1;
   }
 
   .card__category {
-    font-size: 0.58rem;
-    letter-spacing: 0.1em;
+    font-size: 0.6rem;
+    letter-spacing: 0.12em;
   }
 
   .card__name {
-    font-size: 0.82rem;
+    font-size: 0.92rem;
     line-height: 1.25;
   }
 
-  .card__status {
-    font-size: 0.6rem;
-    padding: 0.2rem 0.6rem;
+  .card__desc {
+    font-size: 0.78rem;
+    line-height: 1.5;
+    margin-top: 0.1rem;
+  }
+
+  .card__meta {
+    margin-top: 0.35rem;
+    justify-content: space-between;
+    gap: 0.4rem;
+    flex-wrap: nowrap;
+    align-items: center;
+    min-width: 0;
   }
 
   .card__meta-badge {
-    font-size: 0.6rem;
+    font-size: 0.62rem;
     padding: 0.18rem 0.5rem;
+    flex-shrink: 1;
+    min-width: 0;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+
+  .card__status {
+    font-size: 0.62rem;
+    padding: 0.18rem 0.55rem;
+    margin-top: 0;
+    flex-shrink: 0;
+  }
+
+  /* Hide hover overlay on touch */
+  .card__hover-cta {
+    display: none;
   }
 
   /* Full-width bank card */
@@ -1043,6 +1100,11 @@ section {
 /* ============================================================
    17. ENRICHED CARD STYLES (image, quantity, price)
    ============================================================ */
+
+/* Text content wrapper — transparent on desktop so children behave as direct card flex items */
+.card__body {
+  display: contents;
+}
 
 /* Cover image at top of each registry card */
 .card__image-wrap {
@@ -1137,6 +1199,70 @@ section {
   box-shadow: 0 4px 16px rgba(28,25,23,0.22);
 }
 
+
+/* Mobile overrides for enriched card styles (must come after section 17) */
+@media (max-width: 600px) {
+  /* Reset card so the flex row isn't clipped; center items vertically */
+  .registry-card {
+    overflow: visible;
+    position: static;
+    align-items: center;
+  }
+
+  /* Hide hover overlay on touch — re-asserted after section 17 */
+  .card__hover-cta {
+    display: none;
+  }
+
+  /* Re-assert card__body as a flex column —
+     section 17's display:contents would otherwise override the earlier media block */
+  .card__body {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    min-width: 0;
+    gap: 0.18rem;
+    order: 1;
+  }
+
+  /* Thumbnail: larger square, no bleed */
+  .card__image-wrap {
+    order: 2;
+    flex-shrink: 0;
+    width: 104px;
+    height: 104px;
+    min-width: 104px;
+    margin: 0;
+    border-radius: var(--r-md);
+    overflow: hidden;
+  }
+
+  /* Price on mobile: plain text (no pill box) so it never crowds the status badge */
+  .card__meta-badge--price {
+    background: none;
+    border: none;
+    padding: 0;
+    color: #3d5c39;
+    font-weight: 700;
+    font-size: 0.7rem;
+    letter-spacing: 0;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+
+  /* Available badge: stronger contrast */
+  .card__status--available {
+    background-color: var(--clr-sage-light);
+    color: #3d5c39;
+  }
+
+  /* Gifted badge: stronger contrast */
+  .card__status--gifted {
+    background-color: var(--clr-gifted-bg);
+    color: #5a4438;
+  }
+}
 
 /* ============================================================
    18. ITEM DIALOG / MODAL

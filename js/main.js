@@ -244,6 +244,11 @@ function renderCards(grid, items) {
       : '';
 
 
+    // Short description for list card — full text shown in dialog
+    const shortDesc = item.description.length > 65
+      ? item.description.slice(0, 65).trimEnd() + '\u2026'
+      : item.description;
+
     // Price range badge
     const priceBadge = item.priceRange
       ? `<span class="card__meta-badge card__meta-badge--price">${escapeHTML(item.priceRange)}</span>`
@@ -273,9 +278,12 @@ function renderCards(grid, items) {
         onkeydown="if(event.key==='Enter'||event.key===' '){openItemModal(${item.id})}"
       >
         ${imgHTML}
-        <span class="card__category">${escapeHTML(item.category)}</span>
-        <h3 class="card__name">${escapeHTML(item.name)}</h3>
-        ${metaRow}
+        <div class="card__body">
+          <span class="card__category">${escapeHTML(item.category)}</span>
+          <h3 class="card__name">${escapeHTML(item.name)}</h3>
+          <p class="card__desc">${escapeHTML(shortDesc)}</p>
+          ${metaRow}
+        </div>
         ${hoverCta}
       </article>
     `.trim();
