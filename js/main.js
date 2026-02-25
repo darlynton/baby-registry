@@ -27,93 +27,273 @@
 const REGISTRY_FALLBACK = [
   {
     id: 1,
-    name: "Ergonomic Baby Carrier",
-    description: "A structured, ergonomic carrier designed to support baby's hips and spine from the newborn stage through toddlerhood. Suitable from 3.5 kg to 20 kg, with multiple carry positions and lumbar support for the wearer.",
-    category: "Travel & Comfort",
+    name: "Car Seat",
+    description: "A certified infant car seat designed to keep baby safe and properly supported during car journeys from the earliest days.",
+    category: "Travel & Safety",
     status: "available",
     image: "https://images.unsplash.com/photo-1602928321679-560bb453f190?auto=format&fit=crop&w=800&q=80",
-    priceRange: "\u20a635,000 \u2013 \u20a655,000"
+    priceRange: "\u20a6230,000"
   },
   {
     id: 2,
-    name: "Convertible Cot Bed",
-    description: "Grows with baby from newborn to toddler. Includes a firm, breathable mattress, teething rail guards, and multiple adjustable base positions for safe co-sleeping and independent sleeping stages.",
-    category: "Nursery",
-    status: "gifted",
+    name: "Baby Crib & Mattress",
+    description: "A sturdy crib paired with a supportive mattress to provide a safe and comfortable sleeping environment for baby.",
+    category: "Sleep & Nursery",
+    status: "available",
     image: "https://images.unsplash.com/photo-1566004100631-35d015d6a491?auto=format&fit=crop&w=800&q=80",
-    priceRange: "\u20a6120,000 \u2013 \u20a6180,000"
+    priceRange: "\u20a6250,000"
   },
   {
     id: 3,
-    name: "Muslin Swaddle Packs (\u00d72)",
-    description: "Breathable, 100% organic cotton swaddles in soft neutral tones. Gentle on newborn skin and beautifully versatile \u2014 use as a wrap, feeding cover, pram blanket, or play mat.",
-    category: "Clothing & Linen",
+    name: "Baby Net / Sheets",
+    description: "Soft bedding essentials designed to keep baby comfortable and protected while resting or sleeping.",
+    category: "Sleep & Nursery",
     status: "available",
     image: "https://images.unsplash.com/photo-1519689680058-324335c77eba?auto=format&fit=crop&w=800&q=80",
-    priceRange: "\u20a618,000 \u2013 \u20a628,000"
+    priceRange: "\u20a6100,000"
   },
   {
     id: 4,
-    name: "Baby Monitor with Camera",
-    description: "HD video monitor with night vision, two-way audio, and a built-in room temperature sensor. Alerts you the moment baby stirs \u2014 giving you peace of mind in every room of the house.",
-    category: "Nursery",
+    name: "Kidilo Baby Bassinet",
+    description: "A compact bedside bassinet that allows baby to sleep close to parents while maintaining a safe, separate space.",
+    category: "Sleep & Nursery",
     status: "available",
     image: "https://images.unsplash.com/photo-1555252333-9f8e92e65df9?auto=format&fit=crop&w=800&q=80",
-    priceRange: "\u20a665,000 \u2013 \u20a695,000"
+    priceRange: "\u20a6280,000"
   },
   {
     id: 5,
-    name: "Newborn Starter Clothing Set (\u00d73)",
-    description: "A curated collection of onesies, sleepsuits, and hats for the first three months \u2014 soft, practical, and neutral. Made from 100% Pima cotton and sized for real newborns.",
-    category: "Clothing & Linen",
-    status: "gifted",
-    image: "https://images.unsplash.com/photo-1522771930-78848d9293e8?auto=format&fit=crop&w=800&q=80",
-    priceRange: "\u20a622,000 \u2013 \u20a635,000"
+    name: "Skip Hop Changing Pad",
+    description: "A cushioned, wipe-clean changing pad designed to make diaper changes safer and more comfortable.",
+    category: "Diapering & Care",
+    status: "available",
+    image: "https://images.unsplash.com/photo-1519689680058-324335c77eba?auto=format&fit=crop&w=800&q=80",
+    priceRange: "\u20a680,000"
   },
   {
     id: 6,
-    name: "Baby Bathtub with Sling",
-    description: "Ergonomic tub with a removable newborn sling insert and a non-slip base. Designed for safe, calm, and comfortable bath time from day one \u2014 no second pair of hands required.",
-    category: "Bath & Care",
+    name: "Tummy Play Mat",
+    description: "A padded play mat that supports tummy time and early physical development through safe, supervised play.",
+    category: "Clothing & Play",
     status: "available",
-    image: "https://images.unsplash.com/photo-1545558014-8692077e9b5c?auto=format&fit=crop&w=800&q=80",
-    priceRange: "\u20a615,000 \u2013 \u20a625,000"
+    image: "https://images.unsplash.com/photo-1519689680058-324335c77eba?auto=format&fit=crop&w=800&q=80",
+    priceRange: "\u20a6100,000"
   },
   {
     id: 7,
-    name: "Organic Baby Skincare Kit (\u00d72)",
-    description: "Gentle, fragrance-free lotion, wash, and body oil \u2014 dermatologist tested and safe for sensitive newborn skin. Formulated without parabens, sulphates, or harsh preservatives.",
-    category: "Bath & Care",
+    name: "Baby Monitor",
+    description: "A reliable monitor that allows parents to keep an eye and ear on baby while they sleep or rest.",
+    category: "Travel & Safety",
     status: "available",
-    image: "https://images.unsplash.com/photo-1556228578-8c89e6adf883?auto=format&fit=crop&w=800&q=80",
-    priceRange: "\u20a612,000 \u2013 \u20a620,000"
+    image: "https://images.unsplash.com/photo-1519689680058-324335c77eba?auto=format&fit=crop&w=800&q=80",
+    priceRange: "\u20a6150,000"
   },
   {
     id: 8,
-    name: "Lightweight Travel Stroller",
-    description: "Compact stroller with full newborn recline, UPF 50+ canopy, and an easy one-hand fold. A world-class design that makes every outing \u2014 market run or airport terminal \u2014 feel effortless.",
-    category: "Travel & Comfort",
+    name: "Baby Feeding Bottles & Teats",
+    description: "A set of baby-safe bottles and teats designed for comfortable feeding and easy cleaning.",
+    category: "Feeding",
     status: "available",
-    image: "https://images.unsplash.com/photo-1591474200742-8e512e6f98f8?auto=format&fit=crop&w=800&q=80",
-    priceRange: "\u20a6180,000 \u2013 \u20a6280,000"
+    image: "https://images.unsplash.com/photo-1602928321679-560bb453f190?auto=format&fit=crop&w=800&q=80",
+    priceRange: "\u20a650,000"
   },
   {
     id: 9,
-    name: "White Noise Sound Machine",
-    description: "A compact bedside machine with 20 calming sound profiles \u2014 rain, ocean, white noise, and gentle lullabies \u2014 to help baby fall asleep faster and sleep more soundly through the night.",
-    category: "Nursery",
-    status: "gifted",
-    image: "https://images.unsplash.com/photo-1484704849700-f032a568e944?auto=format&fit=crop&w=800&q=80",
-    priceRange: "\u20a628,000 \u2013 \u20a645,000"
+    name: "Diaper Genie / Bin",
+    description: "A sealed diaper disposal bin that helps control odours and keeps the nursery clean and hygienic.",
+    category: "Diapering & Care",
+    status: "available",
+    image: "https://images.unsplash.com/photo-1553062407-98eeb64c6a62?auto=format&fit=crop&w=800&q=80",
+    priceRange: "\u20a646,000"
   },
   {
     id: 10,
-    name: "Diaper Bag Backpack",
-    description: "An elegant, unisex backpack with 12 organised pockets, insulated bottle holders, a wipeable changing mat, and universal stroller clips. Looks like a premium bag \u2014 works like a command centre.",
-    category: "Travel & Comfort",
+    name: "Ergo Baby Carrier",
+    description: "An ergonomic baby carrier designed to support healthy hip positioning while keeping baby close and comfortable.",
+    category: "Travel & Safety",
+    status: "available",
+    image: "https://images.unsplash.com/photo-1522771930-78848d9293e8?auto=format&fit=crop&w=800&q=80",
+    priceRange: "\u20a685,000"
+  },
+  {
+    id: 11,
+    name: "Diaper Bag",
+    description: "A spacious and practical bag designed to carry all baby essentials when travelling or heading out.",
+    category: "Travel & Safety",
+    status: "available",
+    image: "https://images.unsplash.com/photo-1519689680058-324335c77eba?auto=format&fit=crop&w=800&q=80",
+    priceRange: "\u20a650,000"
+  },
+  {
+    id: 12,
+    name: "Toimoys 3-in-1 Bath Set",
+    description: "A coordinated bath set designed to support safe and comfortable bathing for baby.",
+    category: "Diapering & Care",
+    status: "available",
+    image: "https://images.unsplash.com/photo-1566004100631-35d015d6a491?auto=format&fit=crop&w=800&q=80",
+    priceRange: "\u20a6160,000"
+  },
+  {
+    id: 13,
+    name: "Tommee Tippee Bottle Sterilizer & Dryer",
+    description: "A sterilizing and drying system that helps keep feeding bottles clean and ready for use.",
+    category: "Feeding",
+    status: "available",
+    image: "https://images.unsplash.com/photo-1519689680058-324335c77eba?auto=format&fit=crop&w=800&q=80",
+    priceRange: "\u20a6120,000"
+  },
+  {
+    id: 14,
+    name: "Tommee Tippee Bottle Warmer",
+    description: "A convenient bottle warmer designed to gently heat milk and feeds to a suitable temperature.",
+    category: "Feeding",
     status: "available",
     image: "https://images.unsplash.com/photo-1553062407-98eeb64c6a62?auto=format&fit=crop&w=800&q=80",
-    priceRange: "\u20a635,000 \u2013 \u20a655,000"
+    priceRange: "\u20a662,000"
+  },
+  {
+    id: 15,
+    name: "Insulated Cooler Bag",
+    description: "An insulated bag designed to keep bottles, milk, or snacks cool when travelling.",
+    category: "Feeding",
+    status: "available",
+    image: "https://images.unsplash.com/photo-1545558014-8692077e9b5c?auto=format&fit=crop&w=800&q=80",
+    priceRange: "\u20a630,000"
+  },
+  {
+    id: 16,
+    name: "Baby High Chair",
+    description: "A supportive high chair designed to keep baby secure and comfortable during feeding times.",
+    category: "Feeding",
+    status: "available",
+    image: "https://images.unsplash.com/photo-1545558014-8692077e9b5c?auto=format&fit=crop&w=800&q=80",
+    priceRange: "\u20a6150,000"
+  },
+  {
+    id: 17,
+    name: "Diaper Caddie",
+    description: "A portable organiser for diapers, wipes, and other changing essentials, keeping everything within reach.",
+    category: "Diapering & Care",
+    status: "available",
+    image: "https://images.unsplash.com/photo-1545558014-8692077e9b5c?auto=format&fit=crop&w=800&q=80",
+    priceRange: "\u20a640,000"
+  },
+  {
+    id: 18,
+    name: "Diapers & Wet Wipes",
+    description: "Daily-use diapering essentials designed to keep baby clean, dry, and comfortable.",
+    category: "Diapering & Care",
+    status: "available",
+    image: "https://images.unsplash.com/photo-1545558014-8692077e9b5c?auto=format&fit=crop&w=800&q=80",
+    priceRange: "\u20a650,000"
+  },
+  {
+    id: 19,
+    name: "Wearable Breast Pump (Pair)",
+    description: "A hands-free wearable breast pump designed to support convenient and discreet milk expression.",
+    category: "Mum Care",
+    status: "available",
+    image: "https://images.unsplash.com/photo-1519689680058-324335c77eba?auto=format&fit=crop&w=800&q=80",
+    priceRange: "\u20a6150,000"
+  },
+  {
+    id: 20,
+    name: "Baby Bodysuits / Overalls / Vests",
+    description: "Soft everyday clothing essentials designed for comfort, easy changing, and all-day wear.",
+    category: "Clothing & Play",
+    status: "available",
+    image: "https://images.unsplash.com/photo-1522771930-78848d9293e8?auto=format&fit=crop&w=800&q=80",
+    priceRange: "\u20a650,000"
+  },
+  {
+    id: 21,
+    name: "Muslin Squares / Flannels / Towels",
+    description: "Multi-purpose fabric essentials useful for feeding, cleaning, bathing, and everyday care.",
+    category: "Diapering & Care",
+    status: "available",
+    image: "https://images.unsplash.com/photo-1545558014-8692077e9b5c?auto=format&fit=crop&w=800&q=80",
+    priceRange: "\u20a650,000"
+  },
+  {
+    id: 22,
+    name: "Baby Health & Grooming Care",
+    description: "A set of basic health and grooming items designed to support baby's daily hygiene and care.",
+    category: "Diapering & Care",
+    status: "available",
+    image: "https://images.unsplash.com/photo-1602928321679-560bb453f190?auto=format&fit=crop&w=800&q=80",
+    priceRange: "\u20a650,000"
+  },
+  {
+    id: 23,
+    name: "Baby Body Care",
+    description: "Gentle skincare essentials formulated to care for baby's delicate skin.",
+    category: "Diapering & Care",
+    status: "available",
+    image: "https://images.unsplash.com/photo-1484704849700-f032a568e944?auto=format&fit=crop&w=800&q=80",
+    priceRange: "\u20a650,000"
+  },
+  {
+    id: 24,
+    name: "Milk Storage Bags",
+    description: "Leak-proof storage bags designed for safely storing expressed breast milk.",
+    category: "Feeding",
+    status: "available",
+    image: "https://images.unsplash.com/photo-1566004100631-35d015d6a491?auto=format&fit=crop&w=800&q=80",
+    priceRange: "\u20a630,000"
+  },
+  {
+    id: 25,
+    name: "Baby Toys / Activity Items",
+    description: "Age-appropriate toys designed to encourage sensory exploration and early development.",
+    category: "Clothing & Play",
+    status: "available",
+    image: "https://images.unsplash.com/photo-1553062407-98eeb64c6a62?auto=format&fit=crop&w=800&q=80",
+    priceRange: "\u20a630,000"
+  },
+  {
+    id: 26,
+    name: "Storage Trolley",
+    description: "A movable storage unit designed to organise baby essentials around the home.",
+    category: "Sleep & Nursery",
+    status: "available",
+    image: "https://images.unsplash.com/photo-1553062407-98eeb64c6a62?auto=format&fit=crop&w=800&q=80",
+    priceRange: "\u20a630,000"
+  },
+  {
+    id: 27,
+    name: "XL Stanley Bottle (1.9L)",
+    description: "A large insulated bottle designed to help parents stay hydrated throughout the day.",
+    category: "Mum Care",
+    status: "available",
+    image: "https://images.unsplash.com/photo-1555252333-9f8e92e65df9?auto=format&fit=crop&w=800&q=80",
+    priceRange: "\u20a6100,500"
+  },
+  {
+    id: 28,
+    name: "Frida Mom Postpartum Recovery Essentials Kit",
+    description: "A carefully selected kit designed to support comfort and recovery for mum after delivery.",
+    category: "Mum Care",
+    status: "available",
+    image: "https://images.unsplash.com/photo-1519689680058-324335c77eba?auto=format&fit=crop&w=800&q=80",
+    priceRange: "\u20a6120,000"
+  },
+  {
+    id: 29,
+    name: "Mom Essentials",
+    description: "Everyday essentials selected to support mum's comfort and wellbeing during the postpartum period.",
+    category: "Mum Care",
+    status: "available",
+    image: "https://images.unsplash.com/photo-1522771930-78848d9293e8?auto=format&fit=crop&w=800&q=80",
+    priceRange: "\u20a650,000"
+  },
+  {
+    id: 30,
+    name: "Bottle Dryer Rack",
+    description: "A compact drying rack designed to hygienically air-dry baby bottles, teats, and small feeding accessories after washing.",
+    category: "Feeding",
+    status: "available",
+    image: "https://images.unsplash.com/photo-1555252333-9f8e92e65df9?auto=format&fit=crop&w=800&q=80",
+    priceRange: "\u20a635,000"
   }
 ];
 
