@@ -27,7 +27,7 @@
 const REGISTRY_FALLBACK = [
   {
     id: 1,
-    name: "Car Seat",
+    name: "Kidilo 360 Free Wheeling Car Seat",
     description: "A certified infant car seat designed to keep baby safe and properly supported during car journeys from the earliest days.",
     category: "Travel & Safety",
     status: "available",
@@ -63,7 +63,7 @@ const REGISTRY_FALLBACK = [
   },
   {
     id: 5,
-    name: "Skip Hop Changing Pad",
+    name: "Ingenuity Changing Pad",
     description: "A cushioned, wipe-clean changing pad designed to make diaper changes safer and more comfortable.",
     category: "Diapering & Care",
     status: "available",
@@ -90,7 +90,7 @@ const REGISTRY_FALLBACK = [
   },
   {
     id: 8,
-    name: "Baby Feeding Bottles & Teats",
+    name: "Tommee Tippee Baby Feeding Bottles & Teats",
     description: "A set of baby-safe bottles and teats designed for comfortable feeding and easy cleaning.",
     category: "Feeding",
     status: "available",
@@ -113,16 +113,16 @@ const REGISTRY_FALLBACK = [
     category: "Travel & Safety",
     status: "available",
     image: "img/baby-carrier.jpg",
-    priceRange: "\u20a685,000"
+    priceRange: "₦55,000"
   },
   {
     id: 11,
-    name: "Diaper Bag",
+    name: "Skip Hop Diaper Bag",
     description: "A spacious and practical bag designed to carry all baby essentials when travelling or heading out.",
     category: "Travel & Safety",
     status: "available",
     image: "img/diaper-bag.jpg",
-    priceRange: "\u20a650,000"
+    priceRange: "₦85,000"
   },
   {
     id: 12,
@@ -153,7 +153,7 @@ const REGISTRY_FALLBACK = [
   },
   {
     id: 15,
-    name: "Insulated Cooler Bag",
+    name: "Insulated Bottle Pouch",
     description: "An insulated bag designed to keep bottles, milk, or snacks cool when travelling.",
     category: "Feeding",
     status: "available",
@@ -162,7 +162,7 @@ const REGISTRY_FALLBACK = [
   },
   {
     id: 16,
-    name: "Baby High Chair",
+    name: "Kidilo Baby High Chair (Black)",
     description: "A supportive high chair designed to keep baby secure and comfortable during feeding times.",
     category: "Feeding",
     status: "available",
@@ -180,7 +180,7 @@ const REGISTRY_FALLBACK = [
   },
   {
     id: 18,
-    name: "Diapers & Wet Wipes",
+    name: "Diapers & Wet Wipes (1 Carton Each)",
     description: "Daily-use diapering essentials designed to keep baby clean, dry, and comfortable.",
     category: "Diapering & Care",
     status: "available",
@@ -207,7 +207,7 @@ const REGISTRY_FALLBACK = [
   },
   {
     id: 21,
-    name: "Muslin Squares / Flannels / Towels",
+    name: "Muslin Squares / Flannels / Towels / Blankets",
     description: "Multi-purpose fabric essentials useful for feeding, cleaning, bathing, and everyday care.",
     category: "Diapering & Care",
     status: "available",
@@ -216,7 +216,7 @@ const REGISTRY_FALLBACK = [
   },
   {
     id: 22,
-    name: "Baby Health & Grooming Care",
+    name: "Safety 1st Baby Care Essentials",
     description: "A set of basic health and grooming items designed to support baby's daily hygiene and care.",
     category: "Diapering & Care",
     status: "available",
@@ -252,7 +252,7 @@ const REGISTRY_FALLBACK = [
   },
   {
     id: 26,
-    name: "Storage Trolley",
+    name: "Bedside Storage Rack",
     description: "A movable storage unit designed to organise baby essentials around the home.",
     category: "Sleep & Nursery",
     status: "available",
@@ -261,12 +261,12 @@ const REGISTRY_FALLBACK = [
   },
   {
     id: 27,
-    name: "XL Stanley Bottle (1.9L)",
+    name: "Stanley 1L Bottle (To-Go Bottle)",
     description: "A large insulated bottle designed to help parents stay hydrated throughout the day.",
     category: "Mum Care",
     status: "available",
     image: "img/stanley-bottle.jpg",
-    priceRange: "\u20a6100,500"
+    priceRange: "₦90,500"
   },
   {
     id: 28,
@@ -279,12 +279,12 @@ const REGISTRY_FALLBACK = [
   },
   {
     id: 29,
-    name: "Mom Essentials",
+    name: "Mom All in One Essential Care Bag",
     description: "Everyday essentials selected to support mum's comfort and wellbeing during the postpartum period.",
     category: "Mum Care",
     status: "available",
     image: "img/mom-essentials.jpg",
-    priceRange: "\u20a650,000"
+    priceRange: "₦350,000"
   },
   {
     id: 30,
@@ -294,12 +294,42 @@ const REGISTRY_FALLBACK = [
     status: "available",
     image: "img/bottle-dryer-rack.jpg",
     priceRange: "\u20a635,000"
+  },
+  {
+    id: 31,
+    name: "Multiple Packs Diapers & Wet Wipes",
+    description: "Multiple packs of diapers and wet wipes to keep baby clean, dry, and comfortable throughout the day.",
+    category: "Diapering & Care",
+    status: "available",
+    image: "img/diapers-wipes.jpg",
+    priceRange: "\u20a6100,000"
+  },
+  {
+    id: 32,
+    name: "1 Pack of Onesies (3-in-1)",
+    description: "A pack of three soft onesies designed for comfortable everyday wear for baby.",
+    category: "Clothing & Play",
+    status: "available",
+    image: "img/baby-bodysuits.jpg",
+    priceRange: "\u20a628,000"
+  },
+  {
+    id: 33,
+    name: "Burp & Wash Cloths",
+    description: "Soft, absorbent cloths for burping and gentle cleaning during and after feeding time.",
+    category: "Diapering & Care",
+    status: "available",
+    image: "img/Burp & wash clothes.jpg",
+    priceRange: "\u20a630,000"
   }
 ];
 
 
 /* ============================================================
    1. REGISTRY LOADER
+
+
+
    ============================================================ */
 
 /**
