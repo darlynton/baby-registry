@@ -44,15 +44,6 @@ const REGISTRY_FALLBACK = [
     priceRange: "\u20a6250,000"
   },
   {
-    id: 3,
-    name: "Baby Net / Sheets",
-    description: "Soft bedding essentials designed to keep baby comfortable and protected while resting or sleeping.",
-    category: "Sleep & Nursery",
-    status: "available",
-    image: "img/baby-net-sheets.jpg",
-    priceRange: "\u20a6100,000"
-  },
-  {
     id: 4,
     name: "Kidilo Baby Bassinet",
     description: "A compact bedside bassinet that allows baby to sleep close to parents while maintaining a safe, separate space.",
@@ -239,15 +230,6 @@ const REGISTRY_FALLBACK = [
     category: "Feeding",
     status: "available",
     image: "img/milk-storage-bags.jpg",
-    priceRange: "\u20a630,000"
-  },
-  {
-    id: 25,
-    name: "Baby Toys / Activity Items",
-    description: "Age-appropriate toys designed to encourage sensory exploration and early development.",
-    category: "Clothing & Play",
-    status: "available",
-    image: "https://images.unsplash.com/photo-1553062407-98eeb64c6a62?auto=format&fit=crop&w=800&q=80",
     priceRange: "\u20a630,000"
   },
   {
