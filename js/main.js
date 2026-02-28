@@ -292,7 +292,7 @@ const REGISTRY_FALLBACK = [
     description: "A pack of three soft onesies designed for comfortable everyday wear for baby.",
     category: "Clothing & Play",
     status: "available",
-    image: "img/baby-bodysuits.jpg",
+    image: "img/Onesies.png",
     priceRange: "\u20a628,000"
   },
   {

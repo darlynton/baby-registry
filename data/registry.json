@@ -6,7 +6,7 @@
     "category": "Travel & Safety",
     "status": "available",
     "image": "img/car-seat.jpg",
-    "priceRange": "₦230,000"
+    "priceRange": "\u20a6230,000"
   },
   {
     "id": 2,
@@ -15,7 +15,7 @@
     "category": "Sleep & Nursery",
     "status": "available",
     "image": "img/baby-crib-mattress.jpg",
-    "priceRange": "₦250,000"
+    "priceRange": "\u20a6250,000"
   },
   {
     "id": 4,
@@ -24,7 +24,7 @@
     "category": "Sleep & Nursery",
     "status": "available",
     "image": "img/kidilo-bassinet.jpg",
-    "priceRange": "₦280,000"
+    "priceRange": "\u20a6280,000"
   },
   {
     "id": 5,
@@ -33,7 +33,7 @@
     "category": "Diapering & Care",
     "status": "available",
     "image": "img/changing-pad.jpg",
-    "priceRange": "₦80,000"
+    "priceRange": "\u20a680,000"
   },
   {
     "id": 6,
@@ -42,7 +42,7 @@
     "category": "Clothing & Play",
     "status": "available",
     "image": "img/tummy-playmat.jpg",
-    "priceRange": "₦100,000"
+    "priceRange": "\u20a6100,000"
   },
   {
     "id": 7,
@@ -51,7 +51,7 @@
     "category": "Travel & Safety",
     "status": "available",
     "image": "img/baby-monitor.jpg",
-    "priceRange": "₦150,000"
+    "priceRange": "\u20a6150,000"
   },
   {
     "id": 8,
@@ -60,7 +60,7 @@
     "category": "Feeding",
     "status": "available",
     "image": "img/feeding-bottles.jpg",
-    "priceRange": "₦50,000"
+    "priceRange": "\u20a650,000"
   },
   {
     "id": 9,
@@ -69,7 +69,7 @@
     "category": "Diapering & Care",
     "status": "available",
     "image": "img/diaper-genie.jpg",
-    "priceRange": "₦46,000"
+    "priceRange": "\u20a646,000"
   },
   {
     "id": 10,
@@ -96,7 +96,7 @@
     "category": "Diapering & Care",
     "status": "available",
     "image": "img/bath-set.jpg",
-    "priceRange": "₦160,000"
+    "priceRange": "\u20a6160,000"
   },
   {
     "id": 13,
@@ -105,7 +105,7 @@
     "category": "Feeding",
     "status": "available",
     "image": "img/bottle-sterilizer.jpg",
-    "priceRange": "₦120,000"
+    "priceRange": "\u20a6120,000"
   },
   {
     "id": 14,
@@ -114,7 +114,7 @@
     "category": "Feeding",
     "status": "available",
     "image": "img/bottle-warmer.jpg",
-    "priceRange": "₦62,000"
+    "priceRange": "\u20a662,000"
   },
   {
     "id": 15,
@@ -123,7 +123,7 @@
     "category": "Feeding",
     "status": "available",
     "image": "img/insulated-cooler-bag.jpg",
-    "priceRange": "₦30,000"
+    "priceRange": "\u20a630,000"
   },
   {
     "id": 16,
@@ -132,7 +132,7 @@
     "category": "Feeding",
     "status": "available",
     "image": "img/high-chair.jpg",
-    "priceRange": "₦150,000"
+    "priceRange": "\u20a6150,000"
   },
   {
     "id": 17,
@@ -141,7 +141,7 @@
     "category": "Diapering & Care",
     "status": "available",
     "image": "img/diaper-caddie.jpg",
-    "priceRange": "₦40,000"
+    "priceRange": "\u20a640,000"
   },
   {
     "id": 18,
@@ -150,7 +150,7 @@
     "category": "Diapering & Care",
     "status": "available",
     "image": "img/diapers-wipes.jpg",
-    "priceRange": "₦50,000"
+    "priceRange": "\u20a650,000"
   },
   {
     "id": 19,
@@ -159,7 +159,7 @@
     "category": "Mum Care",
     "status": "available",
     "image": "img/wearable-breast-pump.jpg",
-    "priceRange": "₦150,000"
+    "priceRange": "\u20a6150,000"
   },
   {
     "id": 20,
@@ -168,7 +168,7 @@
     "category": "Clothing & Play",
     "status": "available",
     "image": "img/baby-bodysuits.jpg",
-    "priceRange": "₦50,000"
+    "priceRange": "\u20a650,000"
   },
   {
     "id": 21,
@@ -177,25 +177,25 @@
     "category": "Diapering & Care",
     "status": "available",
     "image": "img/towel-flannel.jpg",
-    "priceRange": "₦50,000"
+    "priceRange": "\u20a650,000"
   },
   {
     "id": 22,
     "name": "Safety 1st Baby Care Essentials",
-    "description": "A set of basic health and grooming items designed to support baby’s daily hygiene and care.",
+    "description": "A set of basic health and grooming items designed to support baby's daily hygiene and care.",
     "category": "Diapering & Care",
     "status": "available",
     "image": "img/baby-care-essentials.jpg",
-    "priceRange": "₦50,000"
+    "priceRange": "\u20a650,000"
   },
   {
     "id": 23,
     "name": "Baby Body Care",
-    "description": "Gentle skincare essentials formulated to care for baby’s delicate skin.",
+    "description": "Gentle skincare essentials formulated to care for baby's delicate skin.",
     "category": "Diapering & Care",
     "status": "available",
     "image": "img/baby-body-care.jpg",
-    "priceRange": "₦50,000"
+    "priceRange": "\u20a650,000"
   },
   {
     "id": 24,
@@ -204,7 +204,7 @@
     "category": "Feeding",
     "status": "available",
     "image": "img/milk-storage-bags.jpg",
-    "priceRange": "₦30,000"
+    "priceRange": "\u20a630,000"
   },
   {
     "id": 26,
@@ -213,7 +213,7 @@
     "category": "Sleep & Nursery",
     "status": "available",
     "image": "img/storage-trolley.jpg",
-    "priceRange": "₦30,000"
+    "priceRange": "\u20a630,000"
   },
   {
     "id": 27,
@@ -231,12 +231,12 @@
     "category": "Mum Care",
     "status": "available",
     "image": "img/frida-mom-recovery.jpg",
-    "priceRange": "₦120,000"
+    "priceRange": "\u20a6120,000"
   },
   {
     "id": 29,
     "name": "Mom All in One Essential Care Bag",
-    "description": "Everyday essentials selected to support mum’s comfort and wellbeing during the postpartum period.",
+    "description": "Everyday essentials selected to support mum's comfort and wellbeing during the postpartum period.",
     "category": "Mum Care",
     "status": "available",
     "image": "img/mom-essentials.jpg",
@@ -249,7 +249,7 @@
     "category": "Feeding",
     "status": "available",
     "image": "img/bottle-dryer-rack.jpg",
-    "priceRange": "₦35,000"
+    "priceRange": "\u20a635,000"
   },
   {
     "id": 31,
@@ -258,7 +258,7 @@
     "category": "Diapering & Care",
     "status": "available",
     "image": "img/diapers-wipes.jpg",
-    "priceRange": "₦100,000"
+    "priceRange": "\u20a6100,000"
   },
   {
     "id": 32,
@@ -266,8 +266,8 @@
     "description": "A pack of three soft onesies designed for comfortable everyday wear for baby.",
     "category": "Clothing & Play",
     "status": "available",
-    "image": "img/baby-bodysuits.jpg",
-    "priceRange": "₦28,000"
+    "image": "img/Onesies.png",
+    "priceRange": "\u20a628,000"
   },
   {
     "id": 33,
@@ -276,6 +276,6 @@
     "category": "Diapering & Care",
     "status": "available",
     "image": "img/Burp & wash clothes.jpg",
-    "priceRange": "₦30,000"
+    "priceRange": "\u20a630,000"
   }
 ]
