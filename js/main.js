@@ -31,7 +31,7 @@ const REGISTRY_FALLBACK = [
     description: "A certified infant car seat designed to keep baby safe and properly supported during car journeys from the earliest days.",
     category: "Travel & Safety",
     status: "available",
-    image: "https://images.unsplash.com/photo-1602928321679-560bb453f190?auto=format&fit=crop&w=800&q=80",
+    image: "img/car-seat.jpg",
     priceRange: "\u20a6230,000"
   },
   {
@@ -40,7 +40,7 @@ const REGISTRY_FALLBACK = [
     description: "A sturdy crib paired with a supportive mattress to provide a safe and comfortable sleeping environment for baby.",
     category: "Sleep & Nursery",
     status: "available",
-    image: "https://images.unsplash.com/photo-1566004100631-35d015d6a491?auto=format&fit=crop&w=800&q=80",
+    image: "img/baby-crib-mattress.jpg",
     priceRange: "\u20a6250,000"
   },
   {
@@ -49,7 +49,7 @@ const REGISTRY_FALLBACK = [
     description: "Soft bedding essentials designed to keep baby comfortable and protected while resting or sleeping.",
     category: "Sleep & Nursery",
     status: "available",
-    image: "https://images.unsplash.com/photo-1519689680058-324335c77eba?auto=format&fit=crop&w=800&q=80",
+    image: "img/baby-net-sheets.jpg",
     priceRange: "\u20a6100,000"
   },
   {
@@ -58,7 +58,7 @@ const REGISTRY_FALLBACK = [
     description: "A compact bedside bassinet that allows baby to sleep close to parents while maintaining a safe, separate space.",
     category: "Sleep & Nursery",
     status: "available",
-    image: "https://images.unsplash.com/photo-1555252333-9f8e92e65df9?auto=format&fit=crop&w=800&q=80",
+    image: "img/kidilo-bassinet.jpg",
     priceRange: "\u20a6280,000"
   },
   {
@@ -67,7 +67,7 @@ const REGISTRY_FALLBACK = [
     description: "A cushioned, wipe-clean changing pad designed to make diaper changes safer and more comfortable.",
     category: "Diapering & Care",
     status: "available",
-    image: "https://images.unsplash.com/photo-1519689680058-324335c77eba?auto=format&fit=crop&w=800&q=80",
+    image: "img/changing-pad.jpg",
     priceRange: "\u20a680,000"
   },
   {
@@ -76,7 +76,7 @@ const REGISTRY_FALLBACK = [
     description: "A padded play mat that supports tummy time and early physical development through safe, supervised play.",
     category: "Clothing & Play",
     status: "available",
-    image: "https://images.unsplash.com/photo-1519689680058-324335c77eba?auto=format&fit=crop&w=800&q=80",
+    image: "img/tummy-playmat.jpg",
     priceRange: "\u20a6100,000"
   },
   {
@@ -85,7 +85,7 @@ const REGISTRY_FALLBACK = [
     description: "A reliable monitor that allows parents to keep an eye and ear on baby while they sleep or rest.",
     category: "Travel & Safety",
     status: "available",
-    image: "https://images.unsplash.com/photo-1519689680058-324335c77eba?auto=format&fit=crop&w=800&q=80",
+    image: "img/baby-monitor.jpg",
     priceRange: "\u20a6150,000"
   },
   {
@@ -94,7 +94,7 @@ const REGISTRY_FALLBACK = [
     description: "A set of baby-safe bottles and teats designed for comfortable feeding and easy cleaning.",
     category: "Feeding",
     status: "available",
-    image: "https://images.unsplash.com/photo-1602928321679-560bb453f190?auto=format&fit=crop&w=800&q=80",
+    image: "img/feeding-bottles.jpg",
     priceRange: "\u20a650,000"
   },
   {
@@ -103,7 +103,7 @@ const REGISTRY_FALLBACK = [
     description: "A sealed diaper disposal bin that helps control odours and keeps the nursery clean and hygienic.",
     category: "Diapering & Care",
     status: "available",
-    image: "https://images.unsplash.com/photo-1553062407-98eeb64c6a62?auto=format&fit=crop&w=800&q=80",
+    image: "img/diaper-genie.jpg",
     priceRange: "\u20a646,000"
   },
   {
@@ -112,7 +112,7 @@ const REGISTRY_FALLBACK = [
     description: "An ergonomic baby carrier designed to support healthy hip positioning while keeping baby close and comfortable.",
     category: "Travel & Safety",
     status: "available",
-    image: "https://images.unsplash.com/photo-1522771930-78848d9293e8?auto=format&fit=crop&w=800&q=80",
+    image: "img/baby-carrier.jpg",
     priceRange: "\u20a685,000"
   },
   {
@@ -121,7 +121,7 @@ const REGISTRY_FALLBACK = [
     description: "A spacious and practical bag designed to carry all baby essentials when travelling or heading out.",
     category: "Travel & Safety",
     status: "available",
-    image: "https://images.unsplash.com/photo-1519689680058-324335c77eba?auto=format&fit=crop&w=800&q=80",
+    image: "img/diaper-bag.jpg",
     priceRange: "\u20a650,000"
   },
   {
@@ -130,7 +130,7 @@ const REGISTRY_FALLBACK = [
     description: "A coordinated bath set designed to support safe and comfortable bathing for baby.",
     category: "Diapering & Care",
     status: "available",
-    image: "https://images.unsplash.com/photo-1566004100631-35d015d6a491?auto=format&fit=crop&w=800&q=80",
+    image: "img/bath-set.jpg",
     priceRange: "\u20a6160,000"
   },
   {
@@ -139,7 +139,7 @@ const REGISTRY_FALLBACK = [
     description: "A sterilizing and drying system that helps keep feeding bottles clean and ready for use.",
     category: "Feeding",
     status: "available",
-    image: "https://images.unsplash.com/photo-1519689680058-324335c77eba?auto=format&fit=crop&w=800&q=80",
+    image: "img/bottle-sterilizer.jpg",
     priceRange: "\u20a6120,000"
   },
   {
@@ -148,7 +148,7 @@ const REGISTRY_FALLBACK = [
     description: "A convenient bottle warmer designed to gently heat milk and feeds to a suitable temperature.",
     category: "Feeding",
     status: "available",
-    image: "https://images.unsplash.com/photo-1553062407-98eeb64c6a62?auto=format&fit=crop&w=800&q=80",
+    image: "img/bottle-warmer.jpg",
     priceRange: "\u20a662,000"
   },
   {
@@ -157,7 +157,7 @@ const REGISTRY_FALLBACK = [
     description: "An insulated bag designed to keep bottles, milk, or snacks cool when travelling.",
     category: "Feeding",
     status: "available",
-    image: "https://images.unsplash.com/photo-1545558014-8692077e9b5c?auto=format&fit=crop&w=800&q=80",
+    image: "img/insulated-cooler-bag.jpg",
     priceRange: "\u20a630,000"
   },
   {
@@ -166,7 +166,7 @@ const REGISTRY_FALLBACK = [
     description: "A supportive high chair designed to keep baby secure and comfortable during feeding times.",
     category: "Feeding",
     status: "available",
-    image: "https://images.unsplash.com/photo-1545558014-8692077e9b5c?auto=format&fit=crop&w=800&q=80",
+    image: "img/high-chair.jpg",
     priceRange: "\u20a6150,000"
   },
   {
@@ -175,7 +175,7 @@ const REGISTRY_FALLBACK = [
     description: "A portable organiser for diapers, wipes, and other changing essentials, keeping everything within reach.",
     category: "Diapering & Care",
     status: "available",
-    image: "https://images.unsplash.com/photo-1545558014-8692077e9b5c?auto=format&fit=crop&w=800&q=80",
+    image: "img/diaper-caddie.jpg",
     priceRange: "\u20a640,000"
   },
   {
@@ -184,7 +184,7 @@ const REGISTRY_FALLBACK = [
     description: "Daily-use diapering essentials designed to keep baby clean, dry, and comfortable.",
     category: "Diapering & Care",
     status: "available",
-    image: "https://images.unsplash.com/photo-1545558014-8692077e9b5c?auto=format&fit=crop&w=800&q=80",
+    image: "img/diapers-wipes.jpg",
     priceRange: "\u20a650,000"
   },
   {
@@ -193,7 +193,7 @@ const REGISTRY_FALLBACK = [
     description: "A hands-free wearable breast pump designed to support convenient and discreet milk expression.",
     category: "Mum Care",
     status: "available",
-    image: "https://images.unsplash.com/photo-1519689680058-324335c77eba?auto=format&fit=crop&w=800&q=80",
+    image: "img/wearable-breast-pump.jpg",
     priceRange: "\u20a6150,000"
   },
   {
@@ -202,7 +202,7 @@ const REGISTRY_FALLBACK = [
     description: "Soft everyday clothing essentials designed for comfort, easy changing, and all-day wear.",
     category: "Clothing & Play",
     status: "available",
-    image: "https://images.unsplash.com/photo-1522771930-78848d9293e8?auto=format&fit=crop&w=800&q=80",
+    image: "img/baby-bodysuits.jpg",
     priceRange: "\u20a650,000"
   },
   {
@@ -211,7 +211,7 @@ const REGISTRY_FALLBACK = [
     description: "Multi-purpose fabric essentials useful for feeding, cleaning, bathing, and everyday care.",
     category: "Diapering & Care",
     status: "available",
-    image: "https://images.unsplash.com/photo-1545558014-8692077e9b5c?auto=format&fit=crop&w=800&q=80",
+    image: "img/towel-flannel.jpg",
     priceRange: "\u20a650,000"
   },
   {
@@ -220,7 +220,7 @@ const REGISTRY_FALLBACK = [
     description: "A set of basic health and grooming items designed to support baby's daily hygiene and care.",
     category: "Diapering & Care",
     status: "available",
-    image: "https://images.unsplash.com/photo-1602928321679-560bb453f190?auto=format&fit=crop&w=800&q=80",
+    image: "img/baby-care-essentials.jpg",
     priceRange: "\u20a650,000"
   },
   {
@@ -229,7 +229,7 @@ const REGISTRY_FALLBACK = [
     description: "Gentle skincare essentials formulated to care for baby's delicate skin.",
     category: "Diapering & Care",
     status: "available",
-    image: "https://images.unsplash.com/photo-1484704849700-f032a568e944?auto=format&fit=crop&w=800&q=80",
+    image: "img/baby-body-care.jpg",
     priceRange: "\u20a650,000"
   },
   {
@@ -238,7 +238,7 @@ const REGISTRY_FALLBACK = [
     description: "Leak-proof storage bags designed for safely storing expressed breast milk.",
     category: "Feeding",
     status: "available",
-    image: "https://images.unsplash.com/photo-1566004100631-35d015d6a491?auto=format&fit=crop&w=800&q=80",
+    image: "img/milk-storage-bags.jpg",
     priceRange: "\u20a630,000"
   },
   {
@@ -256,7 +256,7 @@ const REGISTRY_FALLBACK = [
     description: "A movable storage unit designed to organise baby essentials around the home.",
     category: "Sleep & Nursery",
     status: "available",
-    image: "https://images.unsplash.com/photo-1553062407-98eeb64c6a62?auto=format&fit=crop&w=800&q=80",
+    image: "img/storage-trolley.jpg",
     priceRange: "\u20a630,000"
   },
   {
@@ -265,7 +265,7 @@ const REGISTRY_FALLBACK = [
     description: "A large insulated bottle designed to help parents stay hydrated throughout the day.",
     category: "Mum Care",
     status: "available",
-    image: "https://images.unsplash.com/photo-1555252333-9f8e92e65df9?auto=format&fit=crop&w=800&q=80",
+    image: "img/stanley-bottle.jpg",
     priceRange: "\u20a6100,500"
   },
   {
@@ -274,7 +274,7 @@ const REGISTRY_FALLBACK = [
     description: "A carefully selected kit designed to support comfort and recovery for mum after delivery.",
     category: "Mum Care",
     status: "available",
-    image: "https://images.unsplash.com/photo-1519689680058-324335c77eba?auto=format&fit=crop&w=800&q=80",
+    image: "img/frida-mom-recovery.jpg",
     priceRange: "\u20a6120,000"
   },
   {
@@ -283,7 +283,7 @@ const REGISTRY_FALLBACK = [
     description: "Everyday essentials selected to support mum's comfort and wellbeing during the postpartum period.",
     category: "Mum Care",
     status: "available",
-    image: "https://images.unsplash.com/photo-1522771930-78848d9293e8?auto=format&fit=crop&w=800&q=80",
+    image: "img/mom-essentials.jpg",
     priceRange: "\u20a650,000"
   },
   {
@@ -292,7 +292,7 @@ const REGISTRY_FALLBACK = [
     description: "A compact drying rack designed to hygienically air-dry baby bottles, teats, and small feeding accessories after washing.",
     category: "Feeding",
     status: "available",
-    image: "https://images.unsplash.com/photo-1555252333-9f8e92e65df9?auto=format&fit=crop&w=800&q=80",
+    image: "img/bottle-dryer-rack.jpg",
     priceRange: "\u20a635,000"
   }
 ];

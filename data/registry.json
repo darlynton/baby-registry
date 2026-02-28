@@ -5,7 +5,7 @@
     "description": "A certified infant car seat designed to keep baby safe and properly supported during car journeys from the earliest days.",
     "category": "Travel & Safety",
     "status": "available",
-    "image": "https://images.unsplash.com/photo-1602928321679-560bb453f190?auto=format&fit=crop&w=800&q=80",
+    "image": "img/car-seat.jpg",
     "priceRange": "₦230,000"
   },
   {
@@ -14,7 +14,7 @@
     "description": "A sturdy crib paired with a supportive mattress to provide a safe and comfortable sleeping environment for baby.",
     "category": "Sleep & Nursery",
     "status": "available",
-    "image": "https://images.unsplash.com/photo-1566004100631-35d015d6a491?auto=format&fit=crop&w=800&q=80",
+    "image": "img/baby-crib-mattress.jpg",
     "priceRange": "₦250,000"
   },
   {
@@ -23,7 +23,7 @@
     "description": "Soft bedding essentials designed to keep baby comfortable and protected while resting or sleeping.",
     "category": "Sleep & Nursery",
     "status": "available",
-    "image": "https://images.unsplash.com/photo-1519689680058-324335c77eba?auto=format&fit=crop&w=800&q=80",
+    "image": "img/baby-net-sheets.jpg",
     "priceRange": "₦100,000"
   },
   {
@@ -32,7 +32,7 @@
     "description": "A compact bedside bassinet that allows baby to sleep close to parents while maintaining a safe, separate space.",
     "category": "Sleep & Nursery",
     "status": "available",
-    "image": "https://images.unsplash.com/photo-1555252333-9f8e92e65df9?auto=format&fit=crop&w=800&q=80",
+    "image": "img/kidilo-bassinet.jpg",
     "priceRange": "₦280,000"
   },
   {
@@ -41,7 +41,7 @@
     "description": "A cushioned, wipe-clean changing pad designed to make diaper changes safer and more comfortable.",
     "category": "Diapering & Care",
     "status": "available",
-    "image": "https://images.unsplash.com/photo-1519689680058-324335c77eba?auto=format&fit=crop&w=800&q=80",
+    "image": "img/changing-pad.jpg",
     "priceRange": "₦80,000"
   },
   {
@@ -50,7 +50,7 @@
     "description": "A padded play mat that supports tummy time and early physical development through safe, supervised play.",
     "category": "Clothing & Play",
     "status": "available",
-    "image": "https://images.unsplash.com/photo-1519689680058-324335c77eba?auto=format&fit=crop&w=800&q=80",
+    "image": "img/tummy-playmat.jpg",
     "priceRange": "₦100,000"
   },
   {
@@ -59,7 +59,7 @@
     "description": "A reliable monitor that allows parents to keep an eye and ear on baby while they sleep or rest.",
     "category": "Travel & Safety",
     "status": "available",
-    "image": "https://images.unsplash.com/photo-1519689680058-324335c77eba?auto=format&fit=crop&w=800&q=80",
+    "image": "img/baby-monitor.jpg",
     "priceRange": "₦150,000"
   },
   {
@@ -68,7 +68,7 @@
     "description": "A set of baby-safe bottles and teats designed for comfortable feeding and easy cleaning.",
     "category": "Feeding",
     "status": "available",
-    "image": "https://images.unsplash.com/photo-1602928321679-560bb453f190?auto=format&fit=crop&w=800&q=80",
+    "image": "img/feeding-bottles.jpg",
     "priceRange": "₦50,000"
   },
   {
@@ -77,7 +77,7 @@
     "description": "A sealed diaper disposal bin that helps control odours and keeps the nursery clean and hygienic.",
     "category": "Diapering & Care",
     "status": "available",
-    "image": "https://images.unsplash.com/photo-1553062407-98eeb64c6a62?auto=format&fit=crop&w=800&q=80",
+    "image": "img/diaper-genie.jpg",
     "priceRange": "₦46,000"
   },
   {
@@ -86,7 +86,7 @@
     "description": "An ergonomic baby carrier designed to support healthy hip positioning while keeping baby close and comfortable.",
     "category": "Travel & Safety",
     "status": "available",
-    "image": "https://images.unsplash.com/photo-1522771930-78848d9293e8?auto=format&fit=crop&w=800&q=80",
+    "image": "img/baby-carrier.jpg",
     "priceRange": "₦85,000"
   },
   {
@@ -95,7 +95,7 @@
     "description": "A spacious and practical bag designed to carry all baby essentials when travelling or heading out.",
     "category": "Travel & Safety",
     "status": "available",
-    "image": "https://images.unsplash.com/photo-1519689680058-324335c77eba?auto=format&fit=crop&w=800&q=80",
+    "image": "img/diaper-bag.jpg",
     "priceRange": "₦50,000"
   },
   {
@@ -104,7 +104,7 @@
     "description": "A coordinated bath set designed to support safe and comfortable bathing for baby.",
     "category": "Diapering & Care",
     "status": "available",
-    "image": "https://images.unsplash.com/photo-1566004100631-35d015d6a491?auto=format&fit=crop&w=800&q=80",
+    "image": "img/bath-set.jpg",
     "priceRange": "₦160,000"
   },
   {
@@ -113,7 +113,7 @@
     "description": "A sterilizing and drying system that helps keep feeding bottles clean and ready for use.",
     "category": "Feeding",
     "status": "available",
-    "image": "https://images.unsplash.com/photo-1519689680058-324335c77eba?auto=format&fit=crop&w=800&q=80",
+    "image": "img/bottle-sterilizer.jpg",
     "priceRange": "₦120,000"
   },
   {
@@ -122,7 +122,7 @@
     "description": "A convenient bottle warmer designed to gently heat milk and feeds to a suitable temperature.",
     "category": "Feeding",
     "status": "available",
-    "image": "https://images.unsplash.com/photo-1553062407-98eeb64c6a62?auto=format&fit=crop&w=800&q=80",
+    "image": "img/bottle-warmer.jpg",
     "priceRange": "₦62,000"
   },
   {
@@ -131,7 +131,7 @@
     "description": "An insulated bag designed to keep bottles, milk, or snacks cool when travelling.",
     "category": "Feeding",
     "status": "available",
-    "image": "https://images.unsplash.com/photo-1545558014-8692077e9b5c?auto=format&fit=crop&w=800&q=80",
+    "image": "img/insulated-cooler-bag.jpg",
     "priceRange": "₦30,000"
   },
   {
@@ -140,7 +140,7 @@
     "description": "A supportive high chair designed to keep baby secure and comfortable during feeding times.",
     "category": "Feeding",
     "status": "available",
-    "image": "https://images.unsplash.com/photo-1545558014-8692077e9b5c?auto=format&fit=crop&w=800&q=80",
+    "image": "img/high-chair.jpg",
     "priceRange": "₦150,000"
   },
   {
@@ -149,7 +149,7 @@
     "description": "A portable organiser for diapers, wipes, and other changing essentials, keeping everything within reach.",
     "category": "Diapering & Care",
     "status": "available",
-    "image": "https://images.unsplash.com/photo-1545558014-8692077e9b5c?auto=format&fit=crop&w=800&q=80",
+    "image": "img/diaper-caddie.jpg",
     "priceRange": "₦40,000"
   },
   {
@@ -158,7 +158,7 @@
     "description": "Daily-use diapering essentials designed to keep baby clean, dry, and comfortable.",
     "category": "Diapering & Care",
     "status": "available",
-    "image": "https://images.unsplash.com/photo-1545558014-8692077e9b5c?auto=format&fit=crop&w=800&q=80",
+    "image": "img/diapers-wipes.jpg",
     "priceRange": "₦50,000"
   },
   {
@@ -167,7 +167,7 @@
     "description": "A hands-free wearable breast pump designed to support convenient and discreet milk expression.",
     "category": "Mum Care",
     "status": "available",
-    "image": "https://images.unsplash.com/photo-1519689680058-324335c77eba?auto=format&fit=crop&w=800&q=80",
+    "image": "img/wearable-breast-pump.jpg",
     "priceRange": "₦150,000"
   },
   {
@@ -176,7 +176,7 @@
     "description": "Soft everyday clothing essentials designed for comfort, easy changing, and all-day wear.",
     "category": "Clothing & Play",
     "status": "available",
-    "image": "https://images.unsplash.com/photo-1522771930-78848d9293e8?auto=format&fit=crop&w=800&q=80",
+    "image": "img/baby-bodysuits.jpg",
     "priceRange": "₦50,000"
   },
   {
@@ -185,7 +185,7 @@
     "description": "Multi-purpose fabric essentials useful for feeding, cleaning, bathing, and everyday care.",
     "category": "Diapering & Care",
     "status": "available",
-    "image": "https://images.unsplash.com/photo-1545558014-8692077e9b5c?auto=format&fit=crop&w=800&q=80",
+    "image": "img/towel-flannel.jpg",
     "priceRange": "₦50,000"
   },
   {
@@ -194,7 +194,7 @@
     "description": "A set of basic health and grooming items designed to support baby’s daily hygiene and care.",
     "category": "Diapering & Care",
     "status": "available",
-    "image": "https://images.unsplash.com/photo-1602928321679-560bb453f190?auto=format&fit=crop&w=800&q=80",
+    "image": "img/baby-care-essentials.jpg",
     "priceRange": "₦50,000"
   },
   {
@@ -203,7 +203,7 @@
     "description": "Gentle skincare essentials formulated to care for baby’s delicate skin.",
     "category": "Diapering & Care",
     "status": "available",
-    "image": "https://images.unsplash.com/photo-1484704849700-f032a568e944?auto=format&fit=crop&w=800&q=80",
+    "image": "img/baby-body-care.jpg",
     "priceRange": "₦50,000"
   },
   {
@@ -212,7 +212,7 @@
     "description": "Leak-proof storage bags designed for safely storing expressed breast milk.",
     "category": "Feeding",
     "status": "available",
-    "image": "https://images.unsplash.com/photo-1566004100631-35d015d6a491?auto=format&fit=crop&w=800&q=80",
+    "image": "img/milk-storage-bags.jpg",
     "priceRange": "₦30,000"
   },
   {
@@ -230,7 +230,7 @@
     "description": "A movable storage unit designed to organise baby essentials around the home.",
     "category": "Sleep & Nursery",
     "status": "available",
-    "image": "https://images.unsplash.com/photo-1553062407-98eeb64c6a62?auto=format&fit=crop&w=800&q=80",
+    "image": "img/storage-trolley.jpg",
     "priceRange": "₦30,000"
   },
   {
@@ -239,7 +239,7 @@
     "description": "A large insulated bottle designed to help parents stay hydrated throughout the day.",
     "category": "Mum Care",
     "status": "available",
-    "image": "https://images.unsplash.com/photo-1555252333-9f8e92e65df9?auto=format&fit=crop&w=800&q=80",
+    "image": "img/stanley-bottle.jpg",
     "priceRange": "₦100,500"
   },
   {
@@ -248,7 +248,7 @@
     "description": "A carefully selected kit designed to support comfort and recovery for mum after delivery.",
     "category": "Mum Care",
     "status": "available",
-    "image": "https://images.unsplash.com/photo-1519689680058-324335c77eba?auto=format&fit=crop&w=800&q=80",
+    "image": "img/frida-mom-recovery.jpg",
     "priceRange": "₦120,000"
   },
   {
@@ -257,16 +257,16 @@
     "description": "Everyday essentials selected to support mum’s comfort and wellbeing during the postpartum period.",
     "category": "Mum Care",
     "status": "available",
-    "image": "https://images.unsplash.com/photo-1522771930-78848d9293e8?auto=format&fit=crop&w=800&q=80",
+    "image": "img/mom-essentials.jpg",
     "priceRange": "₦50,000"
   },
   {
-  "id": 30,
-  "name": "Bottle Dryer Rack",
-  "description": "A compact drying rack designed to hygienically air-dry baby bottles, teats, and small feeding accessories after washing.",
-  "category": "Feeding",
-  "status": "available",
-  "image": "https://images.unsplash.com/photo-1555252333-9f8e92e65df9?auto=format&fit=crop&w=800&q=80",
-  "priceRange": "₦35,000"
-}
+    "id": 30,
+    "name": "Bottle Dryer Rack",
+    "description": "A compact drying rack designed to hygienically air-dry baby bottles, teats, and small feeding accessories after washing.",
+    "category": "Feeding",
+    "status": "available",
+    "image": "img/bottle-dryer-rack.jpg",
+    "priceRange": "₦35,000"
+  }
 ]
