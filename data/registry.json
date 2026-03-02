@@ -6,7 +6,7 @@
     "category": "Travel & Safety",
     "status": "available",
     "image": "img/car-seat.jpg",
-    "priceRange": "\u20a6230,000"
+    "priceRange": "₦230,000"
   },
   {
     "id": 2,
@@ -15,7 +15,7 @@
     "category": "Sleep & Nursery",
     "status": "available",
     "image": "img/baby-crib-mattress.jpg",
-    "priceRange": "\u20a6250,000"
+    "priceRange": "₦250,000"
   },
   {
     "id": 4,
@@ -24,7 +24,7 @@
     "category": "Sleep & Nursery",
     "status": "available",
     "image": "img/kidilo-bassinet.jpg",
-    "priceRange": "\u20a6280,000"
+    "priceRange": "₦280,000"
   },
   {
     "id": 5,
@@ -33,7 +33,7 @@
     "category": "Diapering & Care",
     "status": "available",
     "image": "img/changing-pad.jpg",
-    "priceRange": "\u20a680,000"
+    "priceRange": "₦80,000"
   },
   {
     "id": 6,
@@ -42,7 +42,7 @@
     "category": "Clothing & Play",
     "status": "available",
     "image": "img/tummy-playmat.jpg",
-    "priceRange": "\u20a6100,000"
+    "priceRange": "₦100,000"
   },
   {
     "id": 7,
@@ -51,7 +51,7 @@
     "category": "Travel & Safety",
     "status": "available",
     "image": "img/baby-monitor.jpg",
-    "priceRange": "\u20a6150,000"
+    "priceRange": "₦150,000"
   },
   {
     "id": 8,
@@ -60,7 +60,7 @@
     "category": "Feeding",
     "status": "available",
     "image": "img/feeding-bottles.jpg",
-    "priceRange": "\u20a650,000"
+    "priceRange": "₦50,000"
   },
   {
     "id": 9,
@@ -69,7 +69,7 @@
     "category": "Diapering & Care",
     "status": "available",
     "image": "img/diaper-genie.jpg",
-    "priceRange": "\u20a646,000"
+    "priceRange": "₦46,000"
   },
   {
     "id": 10,
@@ -96,7 +96,7 @@
     "category": "Diapering & Care",
     "status": "available",
     "image": "img/bath-set.jpg",
-    "priceRange": "\u20a6160,000"
+    "priceRange": "₦160,000"
   },
   {
     "id": 13,
@@ -105,7 +105,7 @@
     "category": "Feeding",
     "status": "available",
     "image": "img/bottle-sterilizer.jpg",
-    "priceRange": "\u20a6120,000"
+    "priceRange": "₦120,000"
   },
   {
     "id": 14,
@@ -114,7 +114,7 @@
     "category": "Feeding",
     "status": "available",
     "image": "img/bottle-warmer.jpg",
-    "priceRange": "\u20a662,000"
+    "priceRange": "₦62,000"
   },
   {
     "id": 15,
@@ -123,7 +123,7 @@
     "category": "Feeding",
     "status": "available",
     "image": "img/insulated-cooler-bag.jpg",
-    "priceRange": "\u20a630,000"
+    "priceRange": "₦30,000"
   },
   {
     "id": 16,
@@ -132,7 +132,7 @@
     "category": "Feeding",
     "status": "available",
     "image": "img/high-chair.jpg",
-    "priceRange": "\u20a6150,000"
+    "priceRange": "₦150,000"
   },
   {
     "id": 17,
@@ -141,7 +141,7 @@
     "category": "Diapering & Care",
     "status": "available",
     "image": "img/diaper-caddie.jpg",
-    "priceRange": "\u20a640,000"
+    "priceRange": "₦40,000"
   },
   {
     "id": 18,
@@ -150,7 +150,7 @@
     "category": "Diapering & Care",
     "status": "available",
     "image": "img/diapers-wipes.jpg",
-    "priceRange": "\u20a650,000"
+    "priceRange": "₦50,000"
   },
   {
     "id": 19,
@@ -159,7 +159,7 @@
     "category": "Mum Care",
     "status": "available",
     "image": "img/wearable-breast-pump.jpg",
-    "priceRange": "\u20a6150,000"
+    "priceRange": "₦150,000"
   },
   {
     "id": 20,
@@ -168,7 +168,7 @@
     "category": "Clothing & Play",
     "status": "available",
     "image": "img/baby-bodysuits.jpg",
-    "priceRange": "\u20a650,000"
+    "priceRange": "₦50,000"
   },
   {
     "id": 21,
@@ -177,7 +177,7 @@
     "category": "Diapering & Care",
     "status": "available",
     "image": "img/towel-flannel.jpg",
-    "priceRange": "\u20a650,000"
+    "priceRange": "₦50,000"
   },
   {
     "id": 22,
@@ -186,7 +186,7 @@
     "category": "Diapering & Care",
     "status": "available",
     "image": "img/baby-care-essentials.jpg",
-    "priceRange": "\u20a650,000"
+    "priceRange": "₦50,000"
   },
   {
     "id": 23,
@@ -195,7 +195,7 @@
     "category": "Diapering & Care",
     "status": "available",
     "image": "img/baby-body-care.jpg",
-    "priceRange": "\u20a650,000"
+    "priceRange": "₦50,000"
   },
   {
     "id": 24,
@@ -204,7 +204,7 @@
     "category": "Feeding",
     "status": "available",
     "image": "img/milk-storage-bags.jpg",
-    "priceRange": "\u20a630,000"
+    "priceRange": "₦30,000"
   },
   {
     "id": 26,
@@ -213,7 +213,7 @@
     "category": "Sleep & Nursery",
     "status": "available",
     "image": "img/storage-trolley.jpg",
-    "priceRange": "\u20a630,000"
+    "priceRange": "₦30,000"
   },
   {
     "id": 27,
@@ -231,7 +231,7 @@
     "category": "Mum Care",
     "status": "available",
     "image": "img/frida-mom-recovery.jpg",
-    "priceRange": "\u20a6120,000"
+    "priceRange": "₦120,000"
   },
   {
     "id": 29,
@@ -249,7 +249,7 @@
     "category": "Feeding",
     "status": "available",
     "image": "img/bottle-dryer-rack.jpg",
-    "priceRange": "\u20a635,000"
+    "priceRange": "₦35,000"
   },
   {
     "id": 31,
@@ -258,7 +258,7 @@
     "category": "Diapering & Care",
     "status": "available",
     "image": "img/diapers-wipes.jpg",
-    "priceRange": "\u20a6100,000"
+    "priceRange": "₦100,000"
   },
   {
     "id": 32,
@@ -267,7 +267,7 @@
     "category": "Clothing & Play",
     "status": "available",
     "image": "img/Onesies.png",
-    "priceRange": "\u20a628,000"
+    "priceRange": "₦28,000"
   },
   {
     "id": 33,
@@ -276,6 +276,6 @@
     "category": "Diapering & Care",
     "status": "available",
     "image": "img/Burp & wash clothes.jpg",
-    "priceRange": "\u20a630,000"
+    "priceRange": "₦30,000"
   }
 ]

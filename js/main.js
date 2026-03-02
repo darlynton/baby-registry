@@ -25,6 +25,7 @@
    Edit registry.json for production; this serves as a safety net.
    ============================================================ */
 const REGISTRY_FALLBACK = [
+  
   {
     id: 1,
     name: "Kidilo 360 Free Wheeling Car Seat",
