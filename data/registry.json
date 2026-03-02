@@ -1,30 +1,12 @@
 [
   {
-    "id": 1,
-    "name": "Kidilo 360 Free Wheeling Car Seat",
-    "description": "A certified infant car seat designed to keep baby safe and properly supported during car journeys from the earliest days.",
-    "category": "Travel & Safety",
-    "status": "available",
-    "image": "img/car-seat.jpg",
-    "priceRange": "₦230,000"
-  },
-  {
     "id": 2,
-    "name": "Baby Crib & Mattress",
-    "description": "A sturdy crib paired with a supportive mattress to provide a safe and comfortable sleeping environment for baby.",
-    "category": "Sleep & Nursery",
+    "name": "Baby Body Care",
+    "description": "Gentle skincare essentials formulated to care for baby's delicate skin.",
+    "category": "Diapering & Care",
     "status": "available",
-    "image": "img/baby-crib-mattress.jpg",
-    "priceRange": "₦250,000"
-  },
-  {
-    "id": 4,
-    "name": "Kidilo Baby Bassinet",
-    "description": "A compact bedside bassinet that allows baby to sleep close to parents while maintaining a safe, separate space.",
-    "category": "Sleep & Nursery",
-    "status": "available",
-    "image": "img/kidilo-bassinet.jpg",
-    "priceRange": "₦280,000"
+    "image": "img/baby-body-care.jpg",
+    "priceRange": "₦50,000"
   },
   {
     "id": 5,
@@ -108,7 +90,7 @@
     "priceRange": "₦120,000"
   },
   {
-    "id": 14,
+    "id": 4,
     "name": "Tommee Tippee Bottle Warmer",
     "description": "A convenient bottle warmer designed to gently heat milk and feeds to a suitable temperature.",
     "category": "Feeding",
@@ -189,13 +171,13 @@
     "priceRange": "₦50,000"
   },
   {
-    "id": 23,
-    "name": "Baby Body Care",
-    "description": "Gentle skincare essentials formulated to care for baby's delicate skin.",
-    "category": "Diapering & Care",
+    "id": 14,
+    "name": "Kidilo Baby Bassinet",
+    "description": "A compact bedside bassinet that allows baby to sleep close to parents while maintaining a safe, separate space.",
+    "category": "Sleep & Nursery",
     "status": "available",
-    "image": "img/baby-body-care.jpg",
-    "priceRange": "₦50,000"
+    "image": "img/kidilo-bassinet.jpg",
+    "priceRange": "₦280,000"
   },
   {
     "id": 24,
@@ -241,6 +223,15 @@
     "status": "available",
     "image": "img/mom-essentials.jpg",
     "priceRange": "₦350,000"
+  },
+  {
+    "id": 1,
+    "name": "Kidilo 360 Free Wheeling Car Seat",
+    "description": "A certified infant car seat designed to keep baby safe and properly supported during car journeys from the earliest days.",
+    "category": "Travel & Safety",
+    "status": "available",
+    "image": "img/car-seat.jpg",
+    "priceRange": "₦230,000"
   },
   {
     "id": 30,
