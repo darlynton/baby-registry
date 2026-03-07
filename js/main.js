@@ -930,6 +930,73 @@ function initItemDialog() {
 
 
 /* ============================================================
+   9. LIGHTBOX — full-size gallery image viewer
+   ============================================================ */
+function initLightbox() {
+  const overlay   = document.getElementById('lightbox');
+  const imgEl     = document.getElementById('lightboxImg');
+  const closeBtn  = document.getElementById('lightboxClose');
+  const prevBtn   = document.getElementById('lightboxPrev');
+  const nextBtn   = document.getElementById('lightboxNext');
+
+  if (!overlay || !imgEl) return;
+
+  const images = Array.from(document.querySelectorAll('[data-lightbox]'));
+  let current  = 0;
+  let closing  = false;
+
+  function show(index) {
+    current = (index + images.length) % images.length;
+    imgEl.style.opacity = '0';
+    imgEl.src = images[current].src;
+    imgEl.alt = images[current].alt;
+    imgEl.onload = () => { imgEl.style.opacity = '1'; };
+    overlay.hidden = false;
+    document.body.style.overflow = 'hidden';
+    closeBtn.focus();
+  }
+
+  function close() {
+    if (closing) return;
+    closing = true;
+    overlay.hidden = true;
+    document.body.style.overflow = '';
+    // Restore focus to the image that opened the lightbox
+    images[current].focus();
+    setTimeout(() => { closing = false; }, 300);
+  }
+
+  images.forEach((img, i) => {
+    img.style.cursor = 'zoom-in';
+    img.setAttribute('tabindex', '0');
+    img.addEventListener('click',   () => show(i));
+    img.addEventListener('keydown', (e) => { if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); show(i); } });
+  });
+
+  closeBtn.addEventListener('click', close);
+  prevBtn.addEventListener('click',  () => show(current - 1));
+  nextBtn.addEventListener('click',  () => show(current + 1));
+
+  // Click on backdrop closes
+  overlay.addEventListener('click', (e) => { if (e.target === overlay) close(); });
+
+  // Keyboard navigation
+  document.addEventListener('keydown', (e) => {
+    if (overlay.hidden) return;
+    if (e.key === 'Escape')     close();
+    if (e.key === 'ArrowLeft')  show(current - 1);
+    if (e.key === 'ArrowRight') show(current + 1);
+  });
+
+  // Hide nav arrows when only one image
+  if (images.length <= 1) {
+    prevBtn.hidden = true;
+    nextBtn.hidden = true;
+  }
+}
+
+
+/* ============================================================
    INIT — wire everything up once the DOM is ready
    ============================================================ */
 document.addEventListener('DOMContentLoaded', () => {
@@ -937,4 +1004,5 @@ document.addEventListener('DOMContentLoaded', () => {
   initNav();
   initScrollReveal();
   initItemDialog();
+  initLightbox();
 });

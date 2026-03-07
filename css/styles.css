@@ -1697,3 +1697,95 @@ section {
 .dialog__char-count.is-near-limit {
   color: #B28B5A;
 }
+
+
+/* ============================================================
+   LIGHTBOX
+   ============================================================ */
+.gallery__item {
+  cursor: zoom-in;
+}
+
+.lightbox {
+  position: fixed;
+  inset: 0;
+  z-index: 9000;
+  background: rgba(0, 0, 0, 0.92);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  opacity: 0;
+  transition: opacity 0.25s ease;
+  padding: 1rem;
+}
+
+.lightbox:not([hidden]) {
+  opacity: 1;
+}
+
+/* Keep hidden but allow transition out */
+.lightbox[hidden] {
+  display: flex !important;
+  pointer-events: none;
+  opacity: 0;
+}
+
+.lightbox__img {
+  max-width: min(90vw, 560px);
+  max-height: 90dvh;
+  width: auto;
+  height: auto;
+  border-radius: var(--r-md);
+  box-shadow: 0 24px 80px rgba(0, 0, 0, 0.6);
+  object-fit: contain;
+  transition: transform 0.25s ease, opacity 0.2s ease;
+}
+
+.lightbox__close {
+  position: absolute;
+  top: 1.25rem;
+  right: 1.25rem;
+  background: rgba(255, 255, 255, 0.12);
+  border: none;
+  color: #fff;
+  width: 2.5rem;
+  height: 2.5rem;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: background 0.2s;
+  z-index: 1;
+}
+
+.lightbox__close:hover {
+  background: rgba(255, 255, 255, 0.25);
+}
+
+.lightbox__prev,
+.lightbox__next {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background: rgba(255, 255, 255, 0.12);
+  border: none;
+  color: #fff;
+  width: 2.75rem;
+  height: 2.75rem;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: background 0.2s;
+  z-index: 1;
+}
+
+.lightbox__prev { left: 1.25rem; }
+.lightbox__next { right: 1.25rem; }
+
+.lightbox__prev:hover,
+.lightbox__next:hover {
+  background: rgba(255, 255, 255, 0.25);
+}
