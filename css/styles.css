@@ -893,6 +893,25 @@ section {
   letter-spacing: 0.04em;
 }
 
+.footer__built {
+  font-size: 0.68rem;
+  color: rgba(168, 162, 158, 0.35);
+  letter-spacing: 0.04em;
+  margin-top: 0.4rem;
+}
+
+.footer__built a {
+  color: rgba(168, 162, 158, 0.55);
+  text-decoration: none;
+  border-bottom: 1px solid rgba(168, 162, 158, 0.2);
+  transition: color 0.2s, border-color 0.2s;
+}
+
+.footer__built a:hover {
+  color: var(--clr-surface);
+  border-color: rgba(232, 218, 200, 0.5);
+}
+
 
 /* ============================================================
    15. ANIMATIONS & SCROLL REVEAL
