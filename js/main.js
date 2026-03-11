@@ -303,6 +303,15 @@ const REGISTRY_FALLBACK = [
     category: "Diapering & Care",
     status: "available",
     image: "img/Burp & wash clothes.jpg",
+    priceRange: "\u20a615,000"
+  },
+  {
+    id: 34,
+    name: "Postpartum Belly Wrap",
+    description: "A supportive postpartum belly wrap designed to provide gentle compression and everyday comfort during recovery after birth.",
+    category: "Mum Care",
+    status: "available",
+    image: "img/postpartum-belly-wrap.jpeg",
     priceRange: "\u20a630,000"
   }
 ];
