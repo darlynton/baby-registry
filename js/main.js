@@ -112,7 +112,7 @@ const REGISTRY_FALLBACK = [
     name: "Skip Hop Diaper Bag",
     description: "A spacious and practical bag designed to carry all baby essentials when travelling or heading out.",
     category: "Travel & Safety",
-    status: "available",
+    status: "gifted",
     image: "img/diaper-bag.jpg",
     priceRange: "₦85,000"
   },
@@ -211,7 +211,7 @@ const REGISTRY_FALLBACK = [
     name: "Safety 1st Baby Care Essentials",
     description: "A set of basic health and grooming items designed to support baby's daily hygiene and care.",
     category: "Diapering & Care",
-    status: "available",
+    status: "gifted",
     image: "img/baby-care-essentials.jpg",
     priceRange: "\u20a650,000"
   },
@@ -238,7 +238,7 @@ const REGISTRY_FALLBACK = [
     name: "Bedside Storage Rack",
     description: "A movable storage unit designed to organise baby essentials around the home.",
     category: "Sleep & Nursery",
-    status: "available",
+    status: "gifted",
     image: "img/storage-trolley.jpg",
     priceRange: "\u20a630,000"
   },
