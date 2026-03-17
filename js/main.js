@@ -148,7 +148,7 @@ const REGISTRY_FALLBACK = [
     name: "Insulated Bottle Pouch",
     description: "An insulated bag designed to keep bottles, milk, or snacks cool when travelling.",
     category: "Feeding",
-    status: "available",
+    status: "gifted",
     image: "img/insulated-cooler-bag.jpg",
     priceRange: "\u20a630,000"
   },
@@ -157,7 +157,7 @@ const REGISTRY_FALLBACK = [
     name: "Kidilo Baby High Chair (Black)",
     description: "A supportive high chair designed to keep baby secure and comfortable during feeding times.",
     category: "Feeding",
-    status: "available",
+    status: "gifted",
     image: "img/high-chair.jpg",
     priceRange: "\u20a6150,000"
   },
