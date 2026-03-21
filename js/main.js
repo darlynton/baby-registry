@@ -31,7 +31,7 @@ const REGISTRY_FALLBACK = [
     name: "Kidilo 360 Free Wheeling Car Seat",
     description: "A certified infant car seat designed to keep baby safe and properly supported during car journeys from the earliest days.",
     category: "Travel & Safety",
-    status: "available",
+    status: "gifted",
     image: "img/car-seat.jpg",
     priceRange: "\u20a6230,000"
   },
