@@ -49,7 +49,7 @@
     "name": "Diaper Genie / Bin",
     "description": "A sealed diaper disposal bin that helps control odours and keeps the nursery clean and hygienic.",
     "category": "Diapering & Care",
-    "status": "available",
+    "status": "gifted",
     "image": "img/diaper-genie.jpg",
     "priceRange": "₦46,000"
   },
@@ -76,7 +76,7 @@
     "name": "Toimoys 3-in-1 Bath Set",
     "description": "A coordinated bath set designed to support safe and comfortable bathing for baby.",
     "category": "Diapering & Care",
-    "status": "available",
+    "status": "gifted",
     "image": "img/bath-set.jpg",
     "priceRange": "₦160,000"
   },
@@ -85,7 +85,7 @@
     "name": "Tommee Tippee Bottle Sterilizer & Dryer",
     "description": "A sterilizing and drying system that helps keep feeding bottles clean and ready for use.",
     "category": "Feeding",
-    "status": "available",
+    "status": "gifted",
     "image": "img/bottle-sterilizer.jpg",
     "priceRange": "₦120,000"
   },
@@ -94,7 +94,7 @@
     "name": "Tommee Tippee Bottle Warmer",
     "description": "A convenient bottle warmer designed to gently heat milk and feeds to a suitable temperature.",
     "category": "Feeding",
-    "status": "available",
+    "status": "gifted",
     "image": "img/bottle-warmer.jpg",
     "priceRange": "₦62,000"
   },
@@ -124,15 +124,6 @@
     "status": "available",
     "image": "img/diaper-caddie.jpg",
     "priceRange": "₦40,000"
-  },
-  {
-    "id": 18,
-    "name": "Diapers & Wet Wipes (1 Carton Each)",
-    "description": "Daily-use diapering essentials designed to keep baby clean, dry, and comfortable.",
-    "category": "Diapering & Care",
-    "status": "available",
-    "image": "img/diapers-wipes.jpg",
-    "priceRange": "₦50,000"
   },
   {
     "id": 19,
@@ -175,7 +166,7 @@
     "name": "Kidilo Baby Bassinet",
     "description": "A compact bedside bassinet that allows baby to sleep close to parents while maintaining a safe, separate space.",
     "category": "Sleep & Nursery",
-    "status": "available",
+    "status": "gifted",
     "image": "img/kidilo-bassinet.jpg",
     "priceRange": "₦280,000"
   },
@@ -207,15 +198,6 @@
     "priceRange": "₦90,500"
   },
   {
-    "id": 28,
-    "name": "Frida Mom Postpartum Recovery Essentials Kit",
-    "description": "A carefully selected kit designed to support comfort and recovery for mum after delivery.",
-    "category": "Mum Care",
-    "status": "available",
-    "image": "img/frida-mom-recovery.jpg",
-    "priceRange": "₦120,000"
-  },
-  {
     "id": 29,
     "name": "Mom All in One Essential Care Bag",
     "description": "Everyday essentials selected to support mum's comfort and wellbeing during the postpartum period.",
@@ -243,24 +225,6 @@
     "priceRange": "₦35,000"
   },
   {
-    "id": 31,
-    "name": "Multiple Packs Diapers & Wet Wipes",
-    "description": "Multiple packs of diapers and wet wipes to keep baby clean, dry, and comfortable throughout the day.",
-    "category": "Diapering & Care",
-    "status": "available",
-    "image": "img/diapers-wipes.jpg",
-    "priceRange": "₦100,000"
-  },
-  {
-    "id": 32,
-    "name": "1 Pack of Onesies (3-in-1)",
-    "description": "A pack of three soft onesies designed for comfortable everyday wear for baby.",
-    "category": "Clothing & Play",
-    "status": "available",
-    "image": "img/Onesies.png",
-    "priceRange": "₦28,000"
-  },
-  {
     "id": 33,
     "name": "Burp & Wash Cloths",
     "description": "Soft, absorbent cloths for burping and gentle cleaning during and after feeding time.",
@@ -277,5 +241,65 @@
     "status": "available",
     "image": "img/postpartum-belly-wrap.jpeg",
     "priceRange": "₦30,000"
+  },
+  {
+    "id": 35,
+    "name": "Water Wipes",
+    "description": "The world's purest baby wipes, made with 99.9% water and a drop of fruit extract — gentle enough for newborn skin.",
+    "category": "Diapering & Care",
+    "status": "available",
+    "image": "img/Water wipes .jpg",
+    "priceRange": "₦30,000 – ₦75,000",
+    "variants": [
+      { "label": "240 Sheets (4 Packs)", "price": "₦30,000" },
+      { "label": "720 Sheets (12 Packs)", "price": "₦75,000" }
+    ]
+  },
+  {
+    "id": 36,
+    "name": "Huggies Pure Baby Wipes",
+    "description": "Soft, gentle wipes made with 99% pure water — suitable for sensitive newborn skin from day one.",
+    "category": "Diapering & Care",
+    "status": "available",
+    "image": "img/Huggies wipe .jpg",
+    "priceRange": "₦30,000"
+  },
+  {
+    "id": 37,
+    "name": "Huggies Little Snugglers Diaper",
+    "description": "Premium diapers with a gentle absorb liner that provides up to 12 hours of protection for baby's delicate skin.",
+    "category": "Diapering & Care",
+    "status": "available",
+    "image": "img/Huggies diaper .jpg",
+    "priceRange": "₦25,000 – ₦100,000",
+    "variants": [
+      { "label": "33 Count", "price": "₦25,000" },
+      { "label": "66 Count", "price": "₦45,000" },
+      { "label": "96 Count", "price": "₦60,000" },
+      { "label": "192 Count", "price": "₦100,000" }
+    ]
+  },
+  {
+    "id": 38,
+    "name": "Softcare Premium Baby Diaper",
+    "description": "High-quality baby diapers designed for all-day comfort, dryness, and reliable leak protection.",
+    "category": "Diapering & Care",
+    "status": "available",
+    "image": "img/Softcare diaper .jpg",
+    "priceRange": "₦15,000 – ₦30,000",
+    "variants": [
+      { "label": "50 Pieces", "price": "₦15,000" },
+      { "label": "96 Pieces", "price": "₦25,000" },
+      { "label": "105 Pieces", "price": "₦30,000" }
+    ]
+  },
+  {
+    "id": 39,
+    "name": "Oriamo Smart Humidifier / Air Purifier",
+    "description": "A smart humidifier and air purifier designed to maintain healthy air quality and optimal humidity in baby's nursery.",
+    "category": "Sleep & Nursery",
+    "status": "available",
+    "image": "img/Humidifier .jpg",
+    "priceRange": "₦89,000"
   }
 ]

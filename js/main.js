@@ -25,33 +25,14 @@
    Edit registry.json for production; this serves as a safety net.
    ============================================================ */
 const REGISTRY_FALLBACK = [
-  
-  {
-    id: 1,
-    name: "Kidilo 360 Free Wheeling Car Seat",
-    description: "A certified infant car seat designed to keep baby safe and properly supported during car journeys from the earliest days.",
-    category: "Travel & Safety",
-    status: "gifted",
-    image: "img/car-seat.jpg",
-    priceRange: "\u20a6230,000"
-  },
   {
     id: 2,
-    name: "Baby Crib & Mattress",
-    description: "A sturdy crib paired with a supportive mattress to provide a safe and comfortable sleeping environment for baby.",
-    category: "Sleep & Nursery",
+    name: "Baby Body Care",
+    description: "Gentle skincare essentials formulated to care for baby's delicate skin.",
+    category: "Diapering & Care",
     status: "available",
-    image: "img/baby-crib-mattress.jpg",
-    priceRange: "\u20a6250,000"
-  },
-  {
-    id: 4,
-    name: "Kidilo Baby Bassinet",
-    description: "A compact bedside bassinet that allows baby to sleep close to parents while maintaining a safe, separate space.",
-    category: "Sleep & Nursery",
-    status: "available",
-    image: "img/kidilo-bassinet.jpg",
-    priceRange: "\u20a6280,000"
+    image: "img/baby-body-care.jpg",
+    priceRange: "\u20a650,000"
   },
   {
     id: 5,
@@ -94,7 +75,7 @@ const REGISTRY_FALLBACK = [
     name: "Diaper Genie / Bin",
     description: "A sealed diaper disposal bin that helps control odours and keeps the nursery clean and hygienic.",
     category: "Diapering & Care",
-    status: "available",
+    status: "gifted",
     image: "img/diaper-genie.jpg",
     priceRange: "\u20a646,000"
   },
@@ -105,7 +86,7 @@ const REGISTRY_FALLBACK = [
     category: "Travel & Safety",
     status: "available",
     image: "img/baby-carrier.jpg",
-    priceRange: "₦55,000"
+    priceRange: "\u20a655,000"
   },
   {
     id: 11,
@@ -114,14 +95,14 @@ const REGISTRY_FALLBACK = [
     category: "Travel & Safety",
     status: "gifted",
     image: "img/diaper-bag.jpg",
-    priceRange: "₦85,000"
+    priceRange: "\u20a685,000"
   },
   {
     id: 12,
     name: "Toimoys 3-in-1 Bath Set",
     description: "A coordinated bath set designed to support safe and comfortable bathing for baby.",
     category: "Diapering & Care",
-    status: "available",
+    status: "gifted",
     image: "img/bath-set.jpg",
     priceRange: "\u20a6160,000"
   },
@@ -130,16 +111,16 @@ const REGISTRY_FALLBACK = [
     name: "Tommee Tippee Bottle Sterilizer & Dryer",
     description: "A sterilizing and drying system that helps keep feeding bottles clean and ready for use.",
     category: "Feeding",
-    status: "available",
+    status: "gifted",
     image: "img/bottle-sterilizer.jpg",
     priceRange: "\u20a6120,000"
   },
   {
-    id: 14,
+    id: 4,
     name: "Tommee Tippee Bottle Warmer",
     description: "A convenient bottle warmer designed to gently heat milk and feeds to a suitable temperature.",
     category: "Feeding",
-    status: "available",
+    status: "gifted",
     image: "img/bottle-warmer.jpg",
     priceRange: "\u20a662,000"
   },
@@ -169,15 +150,6 @@ const REGISTRY_FALLBACK = [
     status: "available",
     image: "img/diaper-caddie.jpg",
     priceRange: "\u20a640,000"
-  },
-  {
-    id: 18,
-    name: "Diapers & Wet Wipes (1 Carton Each)",
-    description: "Daily-use diapering essentials designed to keep baby clean, dry, and comfortable.",
-    category: "Diapering & Care",
-    status: "available",
-    image: "img/diapers-wipes.jpg",
-    priceRange: "\u20a650,000"
   },
   {
     id: 19,
@@ -216,13 +188,13 @@ const REGISTRY_FALLBACK = [
     priceRange: "\u20a650,000"
   },
   {
-    id: 23,
-    name: "Baby Body Care",
-    description: "Gentle skincare essentials formulated to care for baby's delicate skin.",
-    category: "Diapering & Care",
-    status: "available",
-    image: "img/baby-body-care.jpg",
-    priceRange: "\u20a650,000"
+    id: 14,
+    name: "Kidilo Baby Bassinet",
+    description: "A compact bedside bassinet that allows baby to sleep close to parents while maintaining a safe, separate space.",
+    category: "Sleep & Nursery",
+    status: "gifted",
+    image: "img/kidilo-bassinet.jpg",
+    priceRange: "\u20a6280,000"
   },
   {
     id: 24,
@@ -249,16 +221,7 @@ const REGISTRY_FALLBACK = [
     category: "Mum Care",
     status: "available",
     image: "img/stanley-bottle.jpg",
-    priceRange: "₦90,500"
-  },
-  {
-    id: 28,
-    name: "Frida Mom Postpartum Recovery Essentials Kit",
-    description: "A carefully selected kit designed to support comfort and recovery for mum after delivery.",
-    category: "Mum Care",
-    status: "available",
-    image: "img/frida-mom-recovery.jpg",
-    priceRange: "\u20a6120,000"
+    priceRange: "\u20a690,500"
   },
   {
     id: 29,
@@ -267,7 +230,16 @@ const REGISTRY_FALLBACK = [
     category: "Mum Care",
     status: "available",
     image: "img/mom-essentials.jpg",
-    priceRange: "₦350,000"
+    priceRange: "\u20a6350,000"
+  },
+  {
+    id: 1,
+    name: "Kidilo 360 Free Wheeling Car Seat",
+    description: "A certified infant car seat designed to keep baby safe and properly supported during car journeys from the earliest days.",
+    category: "Travel & Safety",
+    status: "gifted",
+    image: "img/car-seat.jpg",
+    priceRange: "\u20a6230,000"
   },
   {
     id: 30,
@@ -277,24 +249,6 @@ const REGISTRY_FALLBACK = [
     status: "available",
     image: "img/bottle-dryer-rack.jpg",
     priceRange: "\u20a635,000"
-  },
-  {
-    id: 31,
-    name: "Multiple Packs Diapers & Wet Wipes",
-    description: "Multiple packs of diapers and wet wipes to keep baby clean, dry, and comfortable throughout the day.",
-    category: "Diapering & Care",
-    status: "available",
-    image: "img/diapers-wipes.jpg",
-    priceRange: "\u20a6100,000"
-  },
-  {
-    id: 32,
-    name: "1 Pack of Onesies (3-in-1)",
-    description: "A pack of three soft onesies designed for comfortable everyday wear for baby.",
-    category: "Clothing & Play",
-    status: "available",
-    image: "img/Onesies.png",
-    priceRange: "\u20a628,000"
   },
   {
     id: 33,
@@ -313,6 +267,66 @@ const REGISTRY_FALLBACK = [
     status: "available",
     image: "img/postpartum-belly-wrap.jpeg",
     priceRange: "\u20a630,000"
+  },
+  {
+    id: 35,
+    name: "Water Wipes",
+    description: "The world\u2019s purest baby wipes, made with 99.9% water and a drop of fruit extract \u2014 gentle enough for newborn skin.",
+    category: "Diapering & Care",
+    status: "available",
+    image: "img/Water wipes .jpg",
+    priceRange: "\u20a630,000 \u2013 \u20a675,000",
+    variants: [
+      { label: "240 Sheets (4 Packs)", price: "\u20a630,000" },
+      { label: "720 Sheets (12 Packs)", price: "\u20a675,000" }
+    ]
+  },
+  {
+    id: 36,
+    name: "Huggies Pure Baby Wipes",
+    description: "Soft, gentle wipes made with 99% pure water \u2014 suitable for sensitive newborn skin from day one.",
+    category: "Diapering & Care",
+    status: "available",
+    image: "img/Huggies wipe .jpg",
+    priceRange: "\u20a630,000"
+  },
+  {
+    id: 37,
+    name: "Huggies Little Snugglers Diaper",
+    description: "Premium diapers with a gentle absorb liner that provides up to 12 hours of protection for baby\u2019s delicate skin.",
+    category: "Diapering & Care",
+    status: "available",
+    image: "img/Huggies diaper .jpg",
+    priceRange: "\u20a625,000 \u2013 \u20a6100,000",
+    variants: [
+      { label: "33 Count", price: "\u20a625,000" },
+      { label: "66 Count", price: "\u20a645,000" },
+      { label: "96 Count", price: "\u20a660,000" },
+      { label: "192 Count", price: "\u20a6100,000" }
+    ]
+  },
+  {
+    id: 38,
+    name: "Softcare Premium Baby Diaper",
+    description: "High-quality baby diapers designed for all-day comfort, dryness, and reliable leak protection.",
+    category: "Diapering & Care",
+    status: "available",
+    image: "img/Softcare diaper .jpg",
+    priceRange: "\u20a615,000 \u2013 \u20a630,000",
+    variants: [
+      { label: "50 Pieces", price: "\u20a615,000" },
+      { label: "96 Pieces", price: "\u20a625,000" },
+      { label: "105 Pieces", price: "\u20a630,000" }
+    ]
+  },
+  {
+    id: 39,
+    name: "Oriamo Smart Humidifier / Air Purifier",
+    description: "A smart humidifier and air purifier designed to maintain healthy air quality and optimal humidity in baby\u2019s nursery.",
+    category: "Sleep & Nursery",
+    status: "available",
+    image: "img/Humidifier .jpg",
+    priceRange: "\u20a689,000"
   }
 ];
 
@@ -697,7 +711,40 @@ window.openItemModal = function openItemModal(id) {
   setDialogText('dialogCategory', item.category);
   setDialogText('dialogItemName', item.name);
   setDialogText('dialogDesc',     item.description);
-  setDialogText('dialogPrice', item.priceRange || '');
+
+  // ── Variant selector ──
+  const variantArea = document.getElementById('dialogVariantArea');
+  if (variantArea) {
+    if (item.variants && item.variants.length > 0) {
+      variantArea.innerHTML = `
+        <label for="dialogVariantSelect" class="dialog__variant-label">Select an option</label>
+        <select id="dialogVariantSelect" class="dialog__variant-select">
+          ${item.variants.map((v, i) =>
+            `<option value="${i}">${escapeHTML(v.label)} \u2014 ${escapeHTML(v.price)}</option>`
+          ).join('')}
+        </select>
+      `.trim();
+      variantArea.hidden = false;
+
+      // Set initial price to first variant
+      setDialogText('dialogPrice', item.variants[0].price);
+
+      // Update price on selection change
+      const select = document.getElementById('dialogVariantSelect');
+      select.addEventListener('change', () => {
+        const variant = item.variants[parseInt(select.value, 10)];
+        if (variant) setDialogText('dialogPrice', variant.price);
+        // Also refresh WhatsApp URL if bank panel is active
+        updateGiftWhatsAppUrl();
+      });
+    } else {
+      variantArea.innerHTML = '';
+      variantArea.hidden = true;
+      setDialogText('dialogPrice', item.priceRange || '');
+    }
+  } else {
+    setDialogText('dialogPrice', item.priceRange || '');
+  }
 
   // ── CTA area: gift button or gifted message ──
   const ctaArea = document.getElementById('dialogCtaArea');
@@ -797,7 +844,15 @@ function updateGiftWhatsAppUrl() {
   const message = (document.getElementById('dialogBabyMessage')?.value || '').trim();
 
   // Compose the WhatsApp message
-  let text = `Hello! I've sent a gift for Baby Okeke \u{1F49B}\n\nGift: ${item.name}`;
+  let giftLabel = item.name;
+  // Include selected variant if applicable
+  const variantSelect = document.getElementById('dialogVariantSelect');
+  if (variantSelect && item.variants && item.variants.length > 0) {
+    const variant = item.variants[parseInt(variantSelect.value, 10)];
+    if (variant) giftLabel += ` (${variant.label} \u2014 ${variant.price})`;
+  }
+
+  let text = `Hello! I've sent a gift for Baby Okeke \u{1F49B}\n\nGift: ${giftLabel}`;
   if (name)    text += `\nFrom: ${name}`;
   if (message) text += `\n\nA message for Baby:\n\u201C${message}\u201D`;
 
