@@ -49,7 +49,7 @@ const REGISTRY_FALLBACK = [
     description: "A padded play mat that supports tummy time and early physical development through safe, supervised play.",
     category: "Clothing & Play",
     status: "available",
-    image: "img/tummy-playmat.jpg",
+    image: "img/kids-play-pen.jpg",
     priceRange: "\u20a6100,000"
   },
   {
@@ -150,6 +150,57 @@ const REGISTRY_FALLBACK = [
     status: "available",
     image: "img/diaper-caddie.jpg",
     priceRange: "\u20a640,000"
+  },
+  {
+    id: 35,
+    name: "Water Wipes",
+    description: "The world\u2019s purest baby wipes, made with 99.9% water and a drop of fruit extract \u2014 gentle enough for newborn skin.",
+    category: "Diapering & Care",
+    status: "available",
+    image: "img/Water wipes .jpg",
+    priceRange: "\u20a630,000 \u2013 \u20a675,000",
+    variants: [
+      { label: "240 Sheets (4 Packs)", price: "\u20a630,000" },
+      { label: "720 Sheets (12 Packs)", price: "\u20a675,000" }
+    ]
+  },
+  {
+    id: 36,
+    name: "Huggies Pure Baby Wipes",
+    description: "Soft, gentle wipes made with 99% pure water \u2014 suitable for sensitive newborn skin from day one.",
+    category: "Diapering & Care",
+    status: "available",
+    image: "img/Huggies wipe .jpg",
+    priceRange: "\u20a630,000"
+  },
+  {
+    id: 37,
+    name: "Huggies Little Snugglers Diaper",
+    description: "Premium diapers with a gentle absorb liner that provides up to 12 hours of protection for baby\u2019s delicate skin.",
+    category: "Diapering & Care",
+    status: "available",
+    image: "img/Huggies diaper .jpg",
+    priceRange: "\u20a625,000 \u2013 \u20a6100,000",
+    variants: [
+      { label: "33 Count", price: "\u20a625,000" },
+      { label: "66 Count", price: "\u20a645,000" },
+      { label: "96 Count", price: "\u20a660,000" },
+      { label: "192 Count", price: "\u20a6100,000" }
+    ]
+  },
+  {
+    id: 38,
+    name: "Softcare Premium Baby Diaper",
+    description: "High-quality baby diapers designed for all-day comfort, dryness, and reliable leak protection.",
+    category: "Diapering & Care",
+    status: "available",
+    image: "img/Softcare diaper .jpg",
+    priceRange: "\u20a615,000 \u2013 \u20a630,000",
+    variants: [
+      { label: "50 Pieces", price: "\u20a615,000" },
+      { label: "96 Pieces", price: "\u20a625,000" },
+      { label: "105 Pieces", price: "\u20a630,000" }
+    ]
   },
   {
     id: 19,
@@ -267,57 +318,6 @@ const REGISTRY_FALLBACK = [
     status: "available",
     image: "img/postpartum-belly-wrap.jpeg",
     priceRange: "\u20a630,000"
-  },
-  {
-    id: 35,
-    name: "Water Wipes",
-    description: "The world\u2019s purest baby wipes, made with 99.9% water and a drop of fruit extract \u2014 gentle enough for newborn skin.",
-    category: "Diapering & Care",
-    status: "available",
-    image: "img/Water wipes .jpg",
-    priceRange: "\u20a630,000 \u2013 \u20a675,000",
-    variants: [
-      { label: "240 Sheets (4 Packs)", price: "\u20a630,000" },
-      { label: "720 Sheets (12 Packs)", price: "\u20a675,000" }
-    ]
-  },
-  {
-    id: 36,
-    name: "Huggies Pure Baby Wipes",
-    description: "Soft, gentle wipes made with 99% pure water \u2014 suitable for sensitive newborn skin from day one.",
-    category: "Diapering & Care",
-    status: "available",
-    image: "img/Huggies wipe .jpg",
-    priceRange: "\u20a630,000"
-  },
-  {
-    id: 37,
-    name: "Huggies Little Snugglers Diaper",
-    description: "Premium diapers with a gentle absorb liner that provides up to 12 hours of protection for baby\u2019s delicate skin.",
-    category: "Diapering & Care",
-    status: "available",
-    image: "img/Huggies diaper .jpg",
-    priceRange: "\u20a625,000 \u2013 \u20a6100,000",
-    variants: [
-      { label: "33 Count", price: "\u20a625,000" },
-      { label: "66 Count", price: "\u20a645,000" },
-      { label: "96 Count", price: "\u20a660,000" },
-      { label: "192 Count", price: "\u20a6100,000" }
-    ]
-  },
-  {
-    id: 38,
-    name: "Softcare Premium Baby Diaper",
-    description: "High-quality baby diapers designed for all-day comfort, dryness, and reliable leak protection.",
-    category: "Diapering & Care",
-    status: "available",
-    image: "img/Softcare diaper .jpg",
-    priceRange: "\u20a615,000 \u2013 \u20a630,000",
-    variants: [
-      { label: "50 Pieces", price: "\u20a615,000" },
-      { label: "96 Pieces", price: "\u20a625,000" },
-      { label: "105 Pieces", price: "\u20a630,000" }
-    ]
   },
   {
     id: 39,
