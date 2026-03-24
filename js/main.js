@@ -66,7 +66,7 @@ const REGISTRY_FALLBACK = [
     name: "Tommee Tippee Baby Feeding Bottles & Teats",
     description: "A set of baby-safe bottles and teats designed for comfortable feeding and easy cleaning.",
     category: "Feeding",
-    status: "available",
+    status: "gifted",
     image: "img/feeding-bottles.jpg",
     priceRange: "\u20a650,000"
   },
@@ -279,7 +279,7 @@ const REGISTRY_FALLBACK = [
     name: "Mom All in One Essential Care Bag",
     description: "Everyday essentials selected to support mum's comfort and wellbeing during the postpartum period.",
     category: "Mum Care",
-    status: "available",
+    status: "gifted",
     image: "img/mom-essentials.jpg",
     priceRange: "\u20a6350,000"
   },
