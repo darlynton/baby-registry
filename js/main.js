@@ -30,7 +30,7 @@ const REGISTRY_FALLBACK = [
     name: "Baby Body Care",
     description: "Gentle skincare essentials formulated to care for baby's delicate skin.",
     category: "Diapering & Care",
-    status: "available",
+    status: "gifted",
     image: "img/baby-body-care.jpg",
     priceRange: "\u20a650,000"
   },
@@ -48,7 +48,7 @@ const REGISTRY_FALLBACK = [
     name: "Tummy Play Mat",
     description: "A padded play mat that supports tummy time and early physical development through safe, supervised play.",
     category: "Clothing & Play",
-    status: "available",
+    status: "gifted",
     image: "img/kids-play-pen.jpg",
     priceRange: "\u20a6100,000"
   },
