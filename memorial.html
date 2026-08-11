@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Remembering His Name | Little Star Wish</title>
   <meta name="description" content="A quiet space to remember a beloved life, support the family, and leave a message of love." />
-  <meta name="theme-color" content="#f4f0ea" />
+    <meta name="theme-color" content="#101211" />
   <meta property="og:type" content="website" />
   <meta property="og:title" content="Remembering His Name | Little Star Wish" />
   <meta property="og:description" content="Please join us in remembering a beloved life and supporting his family." />
@@ -23,19 +23,20 @@
       <span class="brand-mark" aria-hidden="true">✦</span>
       <span>Little Star Wish</span>
     </a>
-    <a class="nav-support" href="#support">Support the Family</a>
+    <a class="nav-support" href="#message">Leave a Condolence</a>
   </header>
 
   <main id="top">
     <section class="memorial-hero" aria-labelledby="memorialName">
       <div class="hero-copy">
-        <p class="eyebrow">In loving memory</p>
-        <h1 id="memorialName">His Name</h1>
+        <p class="eyebrow memorial-kicker"><span aria-hidden="true">✦</span> In loving memory <span aria-hidden="true">✦</span></p>
+        <h1 id="memorialName"><span id="memorialFirstNames">His Name</span><span id="memorialSurname"></span></h1>
+        <p class="memorial-nickname" id="memorialNickname"></p>
         <p class="memorial-dates" id="memorialDates" hidden></p>
-        <p class="hero-intro" id="heroIntroduction">We invite family and friends to join us in remembering a life deeply loved, and to surround the family with prayer, kindness and practical support during this difficult time.</p>
+        <p class="hero-bio" id="heroBiography">A beloved life, remembered with love.</p>
         <div class="hero-actions">
-          <a class="button button-primary" href="#support">Offer Your Support</a>
-          <a class="button button-quiet" href="#message">Leave a Message</a>
+          <a class="button button-primary" href="#message">Leave a Condolence</a>
+          <button class="button button-quiet" id="heroSupport" type="button">Support the Family</button>
         </div>
       </div>
       <div class="portrait-frame" id="portraitFrame" aria-label="Memorial photograph placeholder">
@@ -47,36 +48,22 @@
       </div>
     </section>
 
-    <section class="remember-section section-shell" id="remember" aria-labelledby="rememberTitle">
-      <div class="section-heading">
-        <p class="eyebrow">Remembering him</p>
-        <h2 id="rememberTitle">A life held close</h2>
-      </div>
-      <div class="remember-content">
-        <div class="memory-rule" aria-hidden="true"></div>
-        <div>
-          <p id="biography">This space is prepared for the story of a beloved husband, father, brother and friend. His name, photograph, dates and memories can be added here when the family is ready.</p>
-          <blockquote id="memorialQuote" hidden></blockquote>
-        </div>
+    <section class="support-section section-shell" id="support" aria-labelledby="supportTitle">
+      <div class="support-intro">
+        <p class="eyebrow">Optional practical support</p>
+        <h2 id="supportTitle">Support the Family</h2>
+        <p>If you would also like to offer practical support, a condolence gift may be sent using the details below. This is entirely optional; your presence, prayers and message already mean a great deal.</p>
+        <button class="button button-quiet support-trigger" id="openSupport" type="button">View Support Details</button>
       </div>
     </section>
 
-    <section class="support-section section-shell" id="support" aria-labelledby="supportTitle">
-      <div class="support-intro">
-        <p class="eyebrow">A gentle way to help</p>
-        <h2 id="supportTitle">Support the Family</h2>
-        <p>For those who would like to offer practical support to the family, you can send a condolence gift using the details below. Your prayers, messages and generosity are deeply appreciated.</p>
-      </div>
-      <div class="support-card">
-        <div class="amount-options" aria-label="Choose a support amount">
-          <p class="form-label">Choose an amount</p>
-          <div class="amount-grid" id="amountGrid"></div>
-          <label class="custom-amount-label" for="customAmount">Or enter another amount</label>
-          <div class="custom-amount-wrap">
-            <span aria-hidden="true">₦</span>
-            <input id="customAmount" type="number" inputmode="numeric" min="1" step="1" placeholder="Amount" />
-          </div>
-        </div>
+    <dialog class="support-dialog" id="supportDialog" aria-labelledby="supportDialogTitle">
+      <div class="support-dialog__sheet">
+        <button class="dialog-close" id="closeSupport" type="button" aria-label="Close support details">×</button>
+        <p class="eyebrow">Optional practical support</p>
+        <h2 id="supportDialogTitle">Support the Family</h2>
+        <p class="dialog-intro">If you would like to send a condolence gift, you may transfer using the details below. Thank you for supporting the family with gentleness and care.</p>
+        <div class="support-card">
         <div class="bank-details">
           <p class="form-label">Bank transfer details</p>
           <dl>
@@ -85,36 +72,37 @@
             <div class="account-detail"><dt>Account number</dt><dd><span id="accountNumber">3087652436</span><button class="copy-button" id="copyAccount" type="button">Copy</button></dd></div>
           </dl>
           <p class="support-note">After your transfer, you may let the family know privately through WhatsApp.</p>
-          <a class="button button-primary button-wide" id="supportWhatsApp" href="#" target="_blank" rel="noopener noreferrer">Let the family know</a>
+          <a class="button button-primary button-wide" id="dialogMessageLink" href="#message">Leave a Message</a>
         </div>
       </div>
-    </section>
-
-    <section class="message-section section-shell" id="message" aria-labelledby="messageTitle">
-      <div class="section-heading">
-        <p class="eyebrow">Words of comfort</p>
-        <h2 id="messageTitle">Leave a Message</h2>
-        <p>Your message will be held for the family as a personal expression of your condolences. On this static site, submissions are saved on this device as pending moderation and are not made public automatically.</p>
       </div>
-      <form class="message-form" id="messageForm" novalidate>
-        <div class="field-row">
-          <div class="field"><label for="senderName">Your name</label><input id="senderName" name="name" type="text" maxlength="80" required autocomplete="name" /></div>
-          <div class="field"><label for="senderLocation">Location <span>(optional)</span></label><input id="senderLocation" name="location" type="text" maxlength="80" autocomplete="address-level2" /></div>
+    </dialog>
+
+    <section class="messages-area section-shell" id="message" aria-label="Condolence messages">
+      <div class="message-section" aria-labelledby="messageTitle">
+        <div class="section-heading">
+          <p class="eyebrow">Words of comfort</p>
+          <h2 id="messageTitle">Leave a Message</h2>
+          <p>Share a personal message of condolence for the family to keep. Messages are saved for family review.</p>
         </div>
-        <div class="field"><label for="condolenceMessage">Your message</label><textarea id="condolenceMessage" name="message" rows="6" maxlength="1000" required></textarea><span class="character-count" id="characterCount">0 / 1000</span></div>
-        <p class="form-status" id="formStatus" role="status" aria-live="polite"></p>
-        <button class="button button-primary" type="submit">Submit Condolence Message</button>
-      </form>
-    </section>
-
-    <section class="messages-wall section-shell" id="messages" aria-labelledby="messagesTitle">
-      <div class="section-heading">
-        <p class="eyebrow">A shared remembrance</p>
-        <h2 id="messagesTitle">Messages of Love</h2>
+        <form class="message-form" id="messageForm" novalidate>
+          <div class="field-row">
+            <div class="field"><label for="senderFirstName">First name</label><input id="senderFirstName" name="firstName" type="text" maxlength="40" required autocomplete="given-name" /></div>
+            <div class="field"><label for="senderLastName">Last name</label><input id="senderLastName" name="lastName" type="text" maxlength="40" required autocomplete="family-name" /></div>
+          </div>
+          <div class="field"><label for="condolenceMessage">Your message</label><textarea id="condolenceMessage" name="message" rows="6" maxlength="500" required></textarea><span class="character-count" id="characterCount">0 / 500</span></div>
+          <p class="form-status" id="formStatus" role="status" aria-live="polite"></p>
+          <button class="button button-primary" type="submit">Submit Condolence Message</button>
+        </form>
       </div>
-      <div class="message-list" id="messageList" aria-live="polite"></div>
-      <p class="moderation-note">Family use: pending messages are stored only in this browser until exported for review.</p>
-      <button class="export-button" id="exportMessages" type="button">Export pending messages</button>
+
+      <div class="messages-wall" id="messages" aria-labelledby="messagesTitle">
+        <div class="section-heading">
+          <p class="eyebrow">A shared remembrance</p>
+          <h2 id="messagesTitle">Messages of Love</h2>
+        </div>
+        <div class="message-list" id="messageList" aria-live="polite" tabindex="0"></div>
+      </div>
     </section>
 
     <section class="registry-link section-shell" aria-label="Baby registry link">
