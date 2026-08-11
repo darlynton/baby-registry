@@ -1,0 +1,23 @@
+{
+  "siteName": "Little Star Wish",
+  "deceased": {
+    "name": "His Name",
+    "dates": "",
+    "photo": "",
+    "biography": "This space is prepared for the story of a beloved husband, father, brother and friend. His name, photograph, dates and memories can be added here when the family is ready.",
+    "quote": ""
+  },
+  "family": {
+    "sisterName": "the family",
+    "introduction": "We invite family and friends to join us in remembering a life deeply loved, and to surround the family with prayer, kindness and practical support during this difficult time."
+  },
+  "support": {
+    "bank": "First Bank",
+    "accountName": "Ifeoma Sandra Okeke",
+    "accountNumber": "3087652436",
+    "whatsapp": "2348138985308",
+    "quickAmounts": [10000, 25000, 50000, 100000]
+  },
+  "registryUrl": "https://mylittlestarwish.com/",
+  "approvedMessages": []
+}

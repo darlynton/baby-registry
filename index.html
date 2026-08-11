@@ -9,6 +9,13 @@
   <meta name="description" content="A curated baby registry for the Okeke family. Browse our wishlist, contribute a gift, or leave a message for our little one." />
   <meta name="theme-color" content="#FAF8F4" />
 
+  <!-- The same GitHub Pages project can serve the memorial subdomain. -->
+  <script>
+    if (window.location.hostname === 'remember.mylittlestarwish.com' && !window.location.pathname.endsWith('/memorial.html')) {
+      window.location.replace('/memorial.html');
+    }
+  </script>
+
   <!-- Open Graph (for WhatsApp / social sharing) -->
   <meta property="og:type"        content="website" />
   <meta property="og:title"       content="Baby Okeke — Registry &amp; Gifts" />
